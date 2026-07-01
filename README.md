@@ -172,6 +172,6 @@ class AlinaLiaquat:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:2E294E,50:1B998B,100:F46036" alt="Footer wave" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:9D4EDD,50:3C096C,100:140021" alt="Footer wave" width="100%" />
 
 </div>
