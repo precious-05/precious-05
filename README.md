@@ -13,7 +13,7 @@
 <br />
 <br />
 
-<img src="./assets/girl.gif" width="430" alt="Animated AI girl working on a laptop" />
+<img src="./assets/girl.gif" width="460" alt="Alina" />
 
 </div>
 
