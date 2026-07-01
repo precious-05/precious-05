@@ -13,7 +13,7 @@
 <br />
 <br />
 
-<img src="./assets/girl.gif" width="460" alt="Alina" />
+<img src="./assets/girl.gif" width="260" height="100" alt="Alina" />
 
 </div>
 
