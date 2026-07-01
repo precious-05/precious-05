@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:1B998B,50:F46036,100:2E294E&text=Alina%20Liaquat&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20%7C%20Machine%20Learning%20%7C%20Python%20%7C%20Full-Stack%20Builder&descSize=17&descAlignY=58" alt="Alina Liaquat profile banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:1B998B,50:F46036,100:2E294E&text=Alina%20Liaquat&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20%7C%20Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20NLP&descSize=17&descAlignY=58" alt="Alina Liaquat profile banner" width="100%" />
 
 <a href="https://www.linkedin.com/in/alina-liaquat-779347325/">
   <img src="https://img.shields.io/badge/LinkedIn-Alina%20Liaquat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" />
 </a>
 <img src="https://komarev.com/ghpvc/?username=precious-05&style=for-the-badge&color=1B998B&label=PROFILE+VIEWS" alt="Profile views badge" />
 <img src="https://img.shields.io/badge/Focus-AI%20%2B%20ML%20Applications-F46036?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI and ML focus badge" />
+<img src="https://img.shields.io/badge/Deep%20Learning-Neural%20Models-2E294E?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning badge" />
+<img src="https://img.shields.io/badge/NLP-Language%20AI-1B998B?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NLP badge" />
 
 <br />
 <br />
@@ -19,7 +21,7 @@
 
 I am a Computer Science undergraduate building practical AI, machine learning, and data-driven applications. My work usually sits at the intersection of model development, backend APIs, interactive dashboards, mobile apps, and deployment-ready product thinking.
 
-I enjoy turning real-world problems into working systems: crop disease detection for farmers, forest fire risk analysis, clinical safety tools, health prediction apps, and data analytics dashboards.
+I enjoy turning real-world problems into working systems: crop disease detection for farmers, forest fire risk analysis, clinical safety tools, health prediction apps, and interactive ML products.
 
 <div align="center">
 
@@ -28,6 +30,8 @@ I enjoy turning real-world problems into working systems: crop disease detection
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111111)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-2E294E?style=flat-square&logo=pytorch&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-1B998B?style=flat-square&logo=googlegemini&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
@@ -128,7 +132,7 @@ I enjoy turning real-world problems into working systems: crop disease detection
 
 <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" height="48" alt="Python logo" />
 <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" height="48" alt="TensorFlow logo" />
-<img src="https://www.vectorlogo.zone/logos/fastapi/fastapi-icon.svg" height="48" alt="FastAPI logo" />
+<img src="https://cdn.simpleicons.org/fastapi/009688" height="48" alt="FastAPI logo" />
 <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" height="48" alt="Java logo" />
 <img src="https://www.vectorlogo.zone/logos/android/android-icon.svg" height="48" alt="Android logo" />
 <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" height="48" alt="PostgreSQL logo" />
@@ -140,7 +144,7 @@ I enjoy turning real-world problems into working systems: crop disease detection
 
 ```python
 class AlinaLiaquat:
-    focus = ["Machine Learning", "AI Applications", "Data Analytics", "Full-Stack Projects"]
+    focus = ["Machine Learning", "Deep Learning", "NLP", "AI Applications", "Full-Stack Projects"]
     current_stack = ["Python", "FastAPI", "TensorFlow Lite", "Scikit-learn", "Streamlit"]
     build_style = "turn models, data, and interfaces into useful real-world systems"
 ```
@@ -149,12 +153,7 @@ class AlinaLiaquat:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=precious-05&show_icons=true&theme=radical&hide_border=true&rank_icon=github" height="165" alt="GitHub stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=precious-05&theme=radical&hide_border=true" height="165" alt="GitHub streak stats" />
-
-<br />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=precious-05&layout=compact&theme=radical&hide_border=true" height="165" alt="Top languages" />
+<img src="./assets/neon-contribution-grid.svg" width="100%" alt="Neon GitHub contribution style activity grid" />
 
 </div>
 
@@ -163,12 +162,12 @@ class AlinaLiaquat:
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20for%20Agriculture-1B998B?style=for-the-badge&logo=leaflet&logoColor=white" alt="AI for agriculture" />
   <img src="https://img.shields.io/badge/Health%20AI-F46036?style=for-the-badge&logo=heart&logoColor=white" alt="Health AI" />
-  <img src="https://img.shields.io/badge/Data%20Dashboards-2E294E?style=for-the-badge&logo=plotly&logoColor=white" alt="Data dashboards" />
+  <img src="https://img.shields.io/badge/ML%20Pipelines-2E294E?style=for-the-badge&logo=plotly&logoColor=white" alt="ML pipelines" />
   <img src="https://img.shields.io/badge/Android%20ML-3DDC84?style=for-the-badge&logo=android&logoColor=111111" alt="Android ML" />
 </p>
 
 <p align="center">
-  <img src="https://media.tenor.com/2uyENRmiUt0AAAAC/coding.gif" width="360" alt="Coding animation from Tenor" />
+  <img src="./assets/model-lab-animation.svg" width="85%" alt="Animated machine learning lab" />
 </p>
 
 <div align="center">

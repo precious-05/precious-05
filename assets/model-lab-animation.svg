@@ -1,0 +1,89 @@
+<svg width="760" height="260" viewBox="0 0 760 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated machine learning lab</title>
+  <desc id="desc">A neon machine learning dashboard with moving data points and model layers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A18"/>
+      <stop offset=".55" stop-color="#111730"/>
+      <stop offset="1" stop-color="#08101A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="110" y1="170" x2="380" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B998B"/>
+      <stop offset="1" stop-color="#38F8C7"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title { font: 700 22px 'Segoe UI', Arial, sans-serif; fill: #F7FBFF; }
+      .tiny { font: 600 11px 'Segoe UI', Arial, sans-serif; fill: #8EA4C8; letter-spacing: .5px; }
+      .axis { stroke: #334064; stroke-width: 2; }
+      .grid { stroke: #243052; stroke-width: 1; opacity: .7; }
+      .node { fill: #38F8C7; filter: url(#glow); }
+      .node2 { fill: #F46036; filter: url(#glow); }
+      .bar { fill: #1B998B; filter: url(#glow); transform-origin: bottom; animation: bars 2.8s ease-in-out infinite; }
+      .bar2 { fill: #38F8C7; filter: url(#glow); transform-origin: bottom; animation: bars 3.4s ease-in-out infinite; }
+      .packet { fill: #F46036; filter: url(#glow); animation: travel 3s linear infinite; }
+      .packet2 { fill: #38F8C7; filter: url(#glow); animation: travel2 3.8s linear infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
+      @keyframes pulse { 0%,100% { opacity:.45; } 50% { opacity:1; } }
+      @keyframes bars { 0%,100% { transform: scaleY(.55); } 50% { transform: scaleY(1); } }
+      @keyframes travel {
+        0% { transform: translate(0, 0); opacity: 0; }
+        15% { opacity: 1; }
+        100% { transform: translate(212px, -78px); opacity: 0; }
+      }
+      @keyframes travel2 {
+        0% { transform: translate(0, 0); opacity: 0; }
+        20% { opacity: 1; }
+        100% { transform: translate(225px, 62px); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="760" height="260" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="758" height="258" rx="17" stroke="#1B998B" stroke-opacity=".45"/>
+  <text x="34" y="42" class="title">Model Lab</text>
+  <text x="35" y="63" class="tiny">FEATURES  ->  TRAINING  ->  SIGNALS</text>
+
+  <g transform="translate(55 91)">
+    <line x1="0" y1="118" x2="300" y2="118" class="axis"/>
+    <line x1="0" y1="0" x2="0" y2="118" class="axis"/>
+    <path d="M0 88H300M0 58H300M0 28H300M60 0V118M120 0V118M180 0V118M240 0V118" class="grid"/>
+    <path d="M8 104C38 84 58 96 86 72C116 46 143 70 170 45C201 16 226 47 254 25C273 11 287 18 296 9" stroke="url(#line)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+    <circle cx="46" cy="90" r="5" class="node pulse"/>
+    <circle cx="96" cy="67" r="5" class="node2 pulse"/>
+    <circle cx="148" cy="58" r="5" class="node pulse"/>
+    <circle cx="205" cy="36" r="5" class="node2 pulse"/>
+    <circle cx="266" cy="23" r="5" class="node pulse"/>
+  </g>
+
+  <g transform="translate(420 74)">
+    <rect x="0" y="0" width="250" height="135" rx="14" fill="#0D1228" stroke="#2A3760"/>
+    <text x="22" y="30" class="tiny">NEURAL LAYERS</text>
+    <g stroke="#2A3760" stroke-width="2">
+      <path d="M48 64H112M48 94H112M138 49H202M138 79H202M138 109H202"/>
+    </g>
+    <circle cx="40" cy="64" r="9" class="node"/>
+    <circle cx="40" cy="94" r="9" class="node2"/>
+    <circle cx="122" cy="49" r="9" class="node pulse"/>
+    <circle cx="122" cy="79" r="9" class="node2 pulse"/>
+    <circle cx="122" cy="109" r="9" class="node pulse"/>
+    <circle cx="212" cy="79" r="11" class="node2 pulse"/>
+    <circle cx="40" cy="64" r="4" class="packet"/>
+    <circle cx="40" cy="94" r="4" class="packet2"/>
+  </g>
+
+  <g transform="translate(456 225) rotate(180)">
+    <rect x="0" y="0" width="12" height="58" rx="4" class="bar"/>
+    <rect x="24" y="0" width="12" height="80" rx="4" class="bar2"/>
+    <rect x="48" y="0" width="12" height="42" rx="4" class="bar"/>
+    <rect x="72" y="0" width="12" height="96" rx="4" class="bar2"/>
+    <rect x="96" y="0" width="12" height="68" rx="4" class="bar"/>
+    <rect x="120" y="0" width="12" height="88" rx="4" class="bar2"/>
+  </g>
+</svg>
