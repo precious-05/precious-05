@@ -13,15 +13,15 @@
 <br />
 <br />
 
-<img src="./assets/girl.gif" width="270" height="250" alt="Alina" />
+<img src="./assets/girl.gif" width="220" height="250" alt="Alina" />
 
 </div>
 
 ## About Me
 
-I am a Computer Science undergraduate building practical AI, machine learning, and data-driven applications. My work usually sits at the intersection of model development, backend APIs, interactive dashboards, mobile apps, and deployment-ready product thinking.
+I am a Computer Science undergraduate building practical AI, machine learning, and data-driven applications. My work usually sits at the intersection of model development, backend APIs, interactive dashboards and deployment-ready product thinking.
 
-I enjoy turning real-world problems into working systems: crop disease detection for farmers, forest fire risk analysis, clinical safety tools, health prediction apps, and interactive ML products.
+I like turning real-world problems into working systems: crop disease detection for farmers, forest fire risk analysis, clinical safety tools, health prediction apps, and interactive ML products.
 
 <div align="center">
 
