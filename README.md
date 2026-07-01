@@ -13,7 +13,7 @@
 <br />
 <br />
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="430" alt="Animated coding desk" />
+<img src="./assets/girl.gif" width="430" alt="Animated AI girl working on a laptop" />
 
 </div>
 
