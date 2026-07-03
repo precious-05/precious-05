@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D0B1A,30:FF5E62,70:FF9966,100:0D0B1A&text=Alina%20Liaquat&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20%7C%20Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20NLP&descSize=17&descAlignY=58" width="100%" />
+<!-- Option 3: Neon Pop -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=30:FF006E,50:FFB703,70:00F5A0&text=Alina%20Liaquat&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20%7C%20Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20NLP&descSize=17&descAlignY=58" width="100%" />
 
 <a href="https://www.linkedin.com/in/alina-liaquat-779347325/">
   <img src="https://img.shields.io/badge/LinkedIn-Alina%20Liaquat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" />
