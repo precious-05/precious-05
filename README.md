@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:140021,50:3C096C,100:00D4FF&text=Alina%20Liaquat&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20%7C%20Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20NLP&descSize=17&descAlignY=58" width="100%" />
-
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=00D4FF&center=true&vCenter=true&width=600&lines=Building+AI+that+Matters;Machine+Learning+%7C+Deep+Learning;NLP+%7C+Full-Stack+AI;Real-World+Problem+Solver" alt="Typing SVG" />
+<!-- Dark Neon Purple-Pink Gradient Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D0B1A,30:9D00FF,70:FF007F,100:0D0B1A&text=Alina%20Liaquat&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20%7C%20Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20NLP&descSize=17&descAlignY=58" width="100%" />
 
 <a href="https://www.linkedin.com/in/alina-liaquat-779347325/">
   <img src="https://img.shields.io/badge/LinkedIn-Alina%20Liaquat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=precious-05&style=for-the-badge&color=00D4FF&label=PROFILE+VIEWS" alt="Profile views badge" />
+<img src="https://komarev.com/ghpvc/?username=precious-05&style=for-the-badge&color=1B998B&label=PROFILE+VIEWS" alt="Profile views badge" />
 <img src="https://img.shields.io/badge/Focus-AI%20%2B%20ML%20Applications-F46036?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI and ML focus badge" />
 <img src="https://img.shields.io/badge/Deep%20Learning-Neural%20Models-2E294E?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning badge" />
 <img src="https://img.shields.io/badge/NLP-Language%20AI-1B998B?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NLP badge" />
@@ -150,7 +148,31 @@ class AlinaLiaquat:
     focus = ["Machine Learning", "Deep Learning", "NLP", "AI Applications", "Full-Stack Projects"]
     current_stack = ["Python", "FastAPI", "TensorFlow Lite", "Scikit-learn", "Streamlit"]
     build_style = "turn models, data, and interfaces into useful real-world systems"
-GitHub Snapshot
-<div align="center"><img src="./assets/neon-contribution-grid.svg" width="100%" alt="Neon GitHub contribution style activity grid" /></div>
-Currently Building Around
-<p align="center"> <img src="https://img.shields.io/badge/AI%20for%20Agriculture-1B998B?style=for-the-badge&logo=leaflet&logoColor=white" alt="AI for agriculture" /> <img src="https://img.shields.io/badge/Health%20AI-F46036?style=for-the-badge&logo=heart&logoColor=white" alt="Health AI" /> <img src="https://img.shields.io/badge/ML%20Pipelines-2E294E?style=for-the-badge&logo=plotly&logoColor=white" alt="ML pipelines" /> <img src="https://img.shields.io/badge/Android%20ML-3DDC84?style=for-the-badge&logo=android&logoColor=111111" alt="Android ML" /> </p><p align="center"> <img src="./assets/model-lab-animation.svg" width="85%" alt="Animated machine learning lab" /> </p><div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:9D4EDD,50:3C096C,100:00D4FF" alt="Footer wave" width="100%" /></div> 
+```
+
+## GitHub Snapshot
+
+<div align="center">
+
+<img src="./assets/neon-contribution-grid.svg" width="100%" alt="Neon GitHub contribution style activity grid" />
+
+</div>
+
+## Currently Building Around
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20for%20Agriculture-1B998B?style=for-the-badge&logo=leaflet&logoColor=white" alt="AI for agriculture" />
+  <img src="https://img.shields.io/badge/Health%20AI-F46036?style=for-the-badge&logo=heart&logoColor=white" alt="Health AI" />
+  <img src="https://img.shields.io/badge/ML%20Pipelines-2E294E?style=for-the-badge&logo=plotly&logoColor=white" alt="ML pipelines" />
+  <img src="https://img.shields.io/badge/Android%20ML-3DDC84?style=for-the-badge&logo=android&logoColor=111111" alt="Android ML" />
+</p>
+
+<p align="center">
+  <img src="./assets/model-lab-animation.svg" width="85%" alt="Animated machine learning lab" />
+</p>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:9D4EDD,50:3C096C,100:140021" alt="Footer wave" width="100%" />
+
+</div>
