@@ -1,177 +1,523 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alina Liaquat · AI & ML</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Font (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:140021,50:3C096C,100:9D4EDD&text=Alina%20Liaquat&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20%7C%20Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20NLP&descSize=17&descAlignY=58" width="100%" />
+        body {
+            background-color: #0d0b1a; /* deep dark base */
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1rem;
+            color: #eae6f0;
+            line-height: 1.5;
+        }
 
-<a href="https://www.linkedin.com/in/alina-liaquat-779347325/">
-  <img src="https://img.shields.io/badge/LinkedIn-Alina%20Liaquat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=precious-05&style=for-the-badge&color=1B998B&label=PROFILE+VIEWS" alt="Profile views badge" />
-<img src="https://img.shields.io/badge/Focus-AI%20%2B%20ML%20Applications-F46036?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI and ML focus badge" />
-<img src="https://img.shields.io/badge/Deep%20Learning-Neural%20Models-2E294E?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning badge" />
-<img src="https://img.shields.io/badge/NLP-Language%20AI-1B998B?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NLP badge" />
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            background: rgba(18, 15, 30, 0.7);
+            backdrop-filter: blur(2px);
+            border-radius: 2.5rem;
+            padding: 2rem 2rem 1.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(157, 78, 221, 0.15);
+            border: 1px solid rgba(157, 78, 221, 0.2);
+        }
 
-<br />
-<br />
+        /* ---- header wave (capsule) ---- */
+        .capsule-header {
+            width: 100%;
+            margin-bottom: 1.5rem;
+            border-radius: 2rem;
+            overflow: hidden;
+            box-shadow: 0 10px 30px -10px #14002166;
+        }
+        .capsule-header img {
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
 
-<img src="./assets/girl.gif" width="220" height="250" alt="Alina" />
+        /* badges row */
+        .badge-strip {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 0.75rem 1rem;
+            margin: 1.2rem 0 1.8rem;
+        }
+
+        .badge-strip a, .badge-strip .badge {
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            background: rgba(30, 25, 50, 0.7);
+            backdrop-filter: blur(4px);
+            padding: 0.4rem 1rem;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.8rem;
+            letter-spacing: 0.3px;
+            border: 1px solid rgba(157, 78, 221, 0.25);
+            color: #ddd8f0;
+            transition: all 0.2s;
+        }
+        .badge-strip a:hover {
+            background: #3C096C;
+            border-color: #9D4EDD;
+            color: white;
+            transform: scale(1.02);
+            box-shadow: 0 0 15px #9D4EDD55;
+        }
+        .badge-strip i {
+            font-size: 1rem;
+            color: #b48ad9;
+        }
+
+        /* avatar + about */
+        .intro-section {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem 3rem;
+            margin: 2rem 0 2.5rem;
+        }
+
+        .avatar {
+            flex-shrink: 0;
+            background: radial-gradient(circle at 30% 30%, #2e1a47, #140021);
+            padding: 0.4rem;
+            border-radius: 50%;
+            box-shadow: 0 0 40px #9D4EDD33, 0 0 80px #3C096C22;
+            border: 2px solid #9D4EDD88;
+        }
+        .avatar img {
+            display: block;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            background: #1f1430;
+        }
+
+        .about-text {
+            max-width: 600px;
+            background: rgba(20, 10, 35, 0.5);
+            backdrop-filter: blur(4px);
+            padding: 1.8rem 2.2rem;
+            border-radius: 2.5rem;
+            border-left: 4px solid #9D4EDD;
+            border-right: 4px solid #3C096C;
+            box-shadow: 0 8px 20px -8px #00000080;
+        }
+        .about-text h2 {
+            font-weight: 700;
+            font-size: 1.7rem;
+            background: linear-gradient(135deg, #d9b3ff, #b47aea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+        .about-text p {
+            color: #cfc8e6;
+            font-weight: 300;
+            font-size: 1rem;
+        }
+
+        /* tech stack pills */
+        .tech-pills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.6rem 1rem;
+            margin: 1.5rem 0 2rem;
+        }
+        .tech-pills span {
+            background: #1d1630;
+            padding: 0.3rem 1.1rem;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #cbb7f0;
+            border: 1px solid #4d2b70;
+            box-shadow: 0 0 8px #3C096C33;
+            letter-spacing: 0.2px;
+        }
+
+        /* projects grid */
+        .section-title {
+            font-size: 1.9rem;
+            font-weight: 700;
+            margin: 2.2rem 0 1.2rem;
+            background: linear-gradient(135deg, #c9adff, #a06cdb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+            border-bottom: 3px solid #6b3f9e;
+            padding-bottom: 0.3rem;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.8rem;
+            margin: 1.5rem 0 2rem;
+        }
+
+        .project-card {
+            background: #151029;
+            padding: 1.5rem 1.6rem;
+            border-radius: 2rem;
+            border: 1px solid #3f2a5a;
+            box-shadow: 0 6px 18px #00000055;
+            transition: all 0.25s ease;
+            backdrop-filter: blur(2px);
+        }
+        .project-card:hover {
+            transform: translateY(-6px);
+            border-color: #9D4EDD;
+            box-shadow: 0 15px 30px -10px #3C096C99, 0 0 0 1px #9D4EDD55;
+            background: #1c1433;
+        }
+        .project-card h3 {
+            font-weight: 700;
+            font-size: 1.4rem;
+            margin-bottom: 0.3rem;
+            color: #dcc9ff;
+        }
+        .project-card .sub {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #b290da;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+        .project-card p {
+            font-size: 0.95rem;
+            color: #cbc2e0;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+        .project-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem 0.6rem;
+            margin-top: 0.6rem;
+        }
+        .project-stack span {
+            background: #261e3b;
+            padding: 0.15rem 0.9rem;
+            border-radius: 30px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #b69fdb;
+            border: 1px solid #4a2e6b;
+        }
+
+        /* More builds (table style) */
+        .more-builds {
+            background: #100c20;
+            border-radius: 2rem;
+            padding: 1.2rem 1.8rem;
+            margin: 1.8rem 0;
+            border: 1px solid #34264a;
+        }
+        .build-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.7rem 0;
+            border-bottom: 1px solid #2f1f47;
+        }
+        .build-row:last-child {
+            border-bottom: none;
+        }
+        .build-row strong {
+            color: #d7c4fc;
+            font-weight: 600;
+            min-width: 180px;
+        }
+        .build-row span {
+            color: #b8a6d9;
+            font-weight: 300;
+            font-size: 0.95rem;
+            flex: 1;
+            padding: 0 0.5rem;
+        }
+        .build-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem 0.7rem;
+        }
+        .build-stack i {
+            background: #1f1732;
+            padding: 0.1rem 0.8rem;
+            border-radius: 30px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: #b595e6;
+            border: 1px solid #412f59;
+            font-style: normal;
+        }
+
+        /* toolbox */
+        .toolbox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem 2.2rem;
+            background: #130e22;
+            padding: 1.5rem 0.5rem;
+            border-radius: 3rem;
+            margin: 2rem 0 1.5rem;
+            border: 1px solid #382a50;
+        }
+        .toolbox img {
+            height: 44px;
+            width: auto;
+            filter: drop-shadow(0 0 6px #763fa8);
+            transition: 0.2s;
+        }
+        .toolbox img:hover {
+            transform: scale(1.12);
+            filter: drop-shadow(0 0 14px #b47aea);
+        }
+
+        /* code snippet */
+        .code-block {
+            background: #0f0b1c;
+            padding: 1.2rem 1.8rem;
+            border-radius: 2rem;
+            border-left: 6px solid #9D4EDD;
+            margin: 1.5rem 0 2rem;
+            font-family: 'Inter', monospace;
+            font-size: 0.9rem;
+            color: #cbbcf0;
+            box-shadow: inset 0 0 30px #00000066;
+        }
+        .code-block span.keyword { color: #b48ad9; font-weight: 600; }
+        .code-block span.string { color: #a7d0b0; }
+        .code-block span.comment { color: #6d5f83; font-style: italic; }
+
+        /* contribution */
+        .contribution {
+            margin: 2rem 0 1.5rem;
+            border-radius: 2rem;
+            overflow: hidden;
+            box-shadow: 0 0 40px #1f0e2e;
+        }
+        .contribution img {
+            display: block;
+            width: 100%;
+            height: auto;
+            background: #0d091a;
+        }
+
+        /* building badges */
+        .building-badges {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.8rem 1.2rem;
+            margin: 1.8rem 0;
+        }
+        .building-badges span {
+            background: #1d1433;
+            padding: 0.4rem 1.5rem;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            border: 1px solid #6a3f94;
+            color: #d6c2fc;
+            backdrop-filter: blur(2px);
+        }
+        .building-badges i {
+            margin-right: 0.4rem;
+            color: #b185e6;
+        }
+
+        .footer-wave {
+            margin-top: 2rem;
+            width: 100%;
+            border-radius: 2rem;
+            overflow: hidden;
+        }
+        .footer-wave img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        /* responsive */
+        @media (max-width: 700px) {
+            .container { padding: 1rem; }
+            .intro-section { flex-direction: column; text-align: center; }
+            .about-text { padding: 1.2rem; }
+            .avatar img { width: 140px; height: 140px; }
+            .build-row { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- HEADER wave -->
+    <div class="capsule-header">
+        <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:140021,50:3C096C,100:9D4EDD&text=Alina%20Liaquat&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20%7C%20Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20NLP&descSize=17&descAlignY=58" alt="header capsule" />
+    </div>
+
+    <!-- Badge strip -->
+    <div class="badge-strip">
+        <a href="https://www.linkedin.com/in/alina-liaquat-779347325/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        <span class="badge"><i class="fas fa-eye"></i> 1.2k views</span>
+        <span class="badge"><i class="fas fa-brain"></i> AI + ML</span>
+        <span class="badge"><i class="fas fa-robot"></i> Deep Learning</span>
+        <span class="badge"><i class="fas fa-language"></i> NLP</span>
+    </div>
+
+    <!-- intro: avatar + about -->
+    <div class="intro-section">
+        <div class="avatar">
+            <img src="./assets/girl.gif" alt="Alina avatar" />
+        </div>
+        <div class="about-text">
+            <h2>👩🏻‍💻 Alina Liaquat</h2>
+            <p>Computer Science undergraduate building practical AI, machine learning, and data-driven applications. I turn real-world problems into working systems: crop disease detection, forest fire risk, clinical safety, health prediction, and interactive ML products.</p>
+        </div>
+    </div>
+
+    <!-- tech pills -->
+    <div class="tech-pills">
+        <span>Python</span><span>Java</span><span>C++</span><span>C</span>
+        <span>TensorFlow</span><span>PyTorch</span><span>NLP</span>
+        <span>scikit-learn</span><span>FastAPI</span><span>Streamlit</span>
+        <span>Android</span><span>PostgreSQL</span><span>MongoDB</span><span>Git</span>
+    </div>
+
+    <!-- Projects -->
+    <h2 class="section-title"><i class="fas fa-code" style="margin-right: 10px; color: #9D4EDD;"></i> Featured Projects</h2>
+    <div class="projects-grid">
+        <!-- card 1 -->
+        <div class="project-card">
+            <h3>Bazgar AI</h3>
+            <span class="sub">Apple Disease Detection · Smart Farming</span>
+            <p>Full-stack AI for Balochi farmers: real-time leaf disease diagnostics, localized treatment, Balochi voice guidance, and UCB1 reinforcement crop assistant.</p>
+            <div class="project-stack"><span>Python</span><span>FastAPI</span><span>TensorFlow Lite</span><span>JavaScript</span></div>
+        </div>
+        <div class="project-card">
+            <h3>EcoSafe AI</h3>
+            <span class="sub">Forest Fire Detection & Risk Analysis</span>
+            <p>Offline-first Android with dynamic risk mapping, CameraX capture, TensorFlow Lite fire classification, and FastAPI backend.</p>
+            <div class="project-stack"><span>Java</span><span>Android Studio</span><span>Google Maps</span><span>SQLite</span></div>
+        </div>
+        <div class="project-card">
+            <h3>ThyroAssess AI</h3>
+            <span class="sub">Thyroid Cancer Risk Assessment</span>
+            <p>ML web app trained on 200K+ records, EDA, Logistic Regression, FastAPI + MongoDB, Vercel deployment.</p>
+            <div class="project-stack"><span>scikit-learn</span><span>FastAPI</span><span>MongoDB</span><span>Vercel</span></div>
+        </div>
+        <div class="project-card">
+            <h3>MediNomix</h3>
+            <span class="sub">Medication Error Prevention</span>
+            <p>Clinical DB for LASA medication errors: phonetic similarity, OpenFDA ETL, Streamlit, Neon PostgreSQL.</p>
+            <div class="project-stack"><span>Streamlit</span><span>PostgreSQL</span><span>OpenFDA</span><span>ETL</span></div>
+        </div>
+        <div class="project-card">
+            <h3>Prosperous Farmer</h3>
+            <span class="sub">Agriculture Data Web App</span>
+            <p>Bilingual Urdu-English dashboard for crop tracking, CRUD, CSV exports, interactive yield analytics.</p>
+            <div class="project-stack"><span>Streamlit</span><span>Pandas</span><span>Plotly</span><span>Neon</span></div>
+        </div>
+        <div class="project-card">
+            <h3>Dakati Game</h3>
+            <span class="sub">Dacoit-Themed Social Deduction</span>
+            <p>Cross-platform game with Kivy GUI, trigonometry-based circular layout, voting logic, Android packaging.</p>
+            <div class="project-stack"><span>Python</span><span>Kivy</span><span>Buildozer</span><span>Game Logic</span></div>
+        </div>
+    </div>
+
+    <!-- More builds -->
+    <div class="more-builds">
+        <div style="font-weight: 700; font-size: 1.2rem; margin-bottom: 0.5rem; color: #c7b0f0;"><i class="fas fa-cubes" style="margin-right: 10px;"></i>More Builds</div>
+        <div class="build-row">
+            <strong>US Natural Resources Revenue EDA</strong>
+            <span>Cleaned, transformed, explored monthly revenue; visual dashboards.</span>
+            <div class="build-stack"><i>NumPy</i><i>Pandas</i><i>Seaborn</i><i>Matplotlib</i></div>
+        </div>
+        <div class="build-row">
+            <strong>Arduino Voice & Bluetooth Robot Car</strong>
+            <span>Voice & Bluetooth controlled robot with real‑time response.</span>
+            <div class="build-stack"><i>Arduino</i><i>C</i><i>Bluetooth</i><i>Voice Recognition</i></div>
+        </div>
+    </div>
+
+    <!-- Toolbox -->
+    <div class="toolbox">
+        <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python" />
+        <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" />
+        <img src="https://cdn.simpleicons.org/fastapi/009688" height="44" alt="FastAPI" />
+        <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java" />
+        <img src="https://www.vectorlogo.zone/logos/android/android-icon.svg" alt="Android" />
+        <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL" />
+        <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="MongoDB" />
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" />
+        <img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" alt="Vercel" />
+    </div>
+
+    <!-- code snippet -->
+    <div class="code-block">
+        <span class="keyword">class</span> AlinaLiaquat:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">focus</span> = [<span class="string">"Machine Learning"</span>, <span class="string">"Deep Learning"</span>, <span class="string">"NLP"</span>, <span class="string">"AI Applications"</span>, <span class="string">"Full-Stack Projects"</span>]<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">current_stack</span> = [<span class="string">"Python"</span>, <span class="string">"FastAPI"</span>, <span class="string">"TensorFlow Lite"</span>, <span class="string">"Scikit-learn"</span>, <span class="string">"Streamlit"</span>]<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">build_style</span> = <span class="string">"turn models, data, and interfaces into useful real-world systems"</span>
+    </div>
+
+    <!-- contribution grid (neon) -->
+    <div class="contribution">
+        <img src="./assets/neon-contribution-grid.svg" alt="contribution grid" />
+    </div>
+
+    <!-- building around -->
+    <div class="building-badges">
+        <span><i class="fas fa-seedling"></i> AI for Agriculture</span>
+        <span><i class="fas fa-heartbeat"></i> Health AI</span>
+        <span><i class="fas fa-chart-line"></i> ML Pipelines</span>
+        <span><i class="fab fa-android"></i> Android ML</span>
+    </div>
+
+    <!-- model lab animation -->
+    <div style="text-align: center; margin: 1rem 0 1.5rem;">
+        <img src="./assets/model-lab-animation.svg" width="85%" alt="model lab animation" style="border-radius: 2rem; background: #0b0718; padding: 0.3rem;" />
+    </div>
+
+    <!-- FOOTER wave -->
+    <div class="footer-wave">
+        <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:9D4EDD,50:3C096C,100:140021" alt="footer wave" />
+    </div>
 
 </div>
-
-## About Me
-
-I am a Computer Science undergraduate building practical AI, machine learning, and data-driven applications. My work usually sits at the intersection of model development, backend APIs, interactive dashboards and deployment-ready product thinking.
-
-I like turning real-world problems into working systems: crop disease detection for farmers, forest fire risk analysis, clinical safety tools, health prediction apps, and interactive ML products.
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111111)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-2E294E?style=flat-square&logo=pytorch&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-1B998B?style=flat-square&logo=googlegemini&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=111111)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
-
-## Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Bazgar AI</h3>
-      <p><b>Apple Disease Detection and Smart Farming Assistant</b></p>
-      <p>Full-stack AI application for Balochi farmers with real-time apple leaf disease diagnostics, localized treatment suggestions, Balochi voice guidance, and an adaptive UCB1 reinforcement learning crop assistant.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/TensorFlow%20Lite-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow Lite" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>EcoSafe AI</h3>
-      <p><b>Forest Fire Detection and Intelligent Risk Analysis</b></p>
-      <p>Offline-first Android application with dynamic risk mapping, local incident tracking, CameraX image capture, and FastAPI-powered TensorFlow Lite fire classification.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-        <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=111111" alt="Android Studio" />
-        <img src="https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white" alt="Google Maps" />
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>ThyroAssess AI</h3>
-      <p><b>Thyroid Cancer Risk Assessment Web App</b></p>
-      <p>Machine learning web application trained on 200K+ patient records with EDA, Logistic Regression modeling, FastAPI integration, MongoDB storage, and a responsive Vercel-deployed interface.</p>
-      <p>
-        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>MediNomix</h3>
-      <p><b>Medication Error Prevention System</b></p>
-      <p>Clinical database application for reducing Look-Alike/Sound-Alike medication errors using phonetic similarity matching, OpenFDA ETL workflows, Streamlit views, and Neon PostgreSQL.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/OpenFDA-245A9A?style=flat-square&logo=fda&logoColor=white" alt="OpenFDA" />
-        <img src="https://img.shields.io/badge/ETL-2E294E?style=flat-square&logo=apacheairflow&logoColor=white" alt="ETL" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Prosperous Farmer</h3>
-      <p><b>Agriculture Data Web Application</b></p>
-      <p>Bilingual Urdu-English dashboard for crop tracking, CRUD data entry, automated CSV exports, and interactive crop yield analytics using Pandas and Plotly.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-        <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly" />
-        <img src="https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=111111" alt="Neon" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Dakati Game</h3>
-      <p><b>Dacoit-Themed Social Deduction Game</b></p>
-      <p>Cross-platform game with a responsive Kivy GUI, trigonometry-based circular player layout, optimized role allocation, voting logic, and Android packaging through Buildozer.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Kivy-3B5BDB?style=flat-square&logo=python&logoColor=white" alt="Kivy" />
-        <img src="https://img.shields.io/badge/Buildozer-2E294E?style=flat-square&logo=android&logoColor=white" alt="Buildozer" />
-        <img src="https://img.shields.io/badge/Game%20Logic-F46036?style=flat-square&logo=googlegames&logoColor=white" alt="Game logic" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-## More Builds
-
-| Project | What it does | Stack |
-| --- | --- | --- |
-| **US Natural Resources Revenue EDA** | Cleaned, transformed, and explored monthly revenue datasets; built visual dashboards to uncover revenue trends and distribution patterns. | NumPy, Pandas, Seaborn, Matplotlib |
-| **Arduino Voice and Bluetooth Robot Car** | Arduino-based robot car that responds to voice and Bluetooth commands in real time with programmable movement and response behavior. | Arduino, C, Bluetooth, Voice Recognition |
-
-## Tech Toolbox
-
-<div align="center">
-
-<img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" height="48" alt="Python logo" />
-<img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" height="48" alt="TensorFlow logo" />
-<img src="https://cdn.simpleicons.org/fastapi/009688" height="48" alt="FastAPI logo" />
-<img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" height="48" alt="Java logo" />
-<img src="https://www.vectorlogo.zone/logos/android/android-icon.svg" height="48" alt="Android logo" />
-<img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" height="48" alt="PostgreSQL logo" />
-<img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" height="48" alt="MongoDB logo" />
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" height="48" alt="Git logo" />
-<img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" height="48" alt="Vercel logo" />
-
-</div>
-
-```python
-class AlinaLiaquat:
-    focus = ["Machine Learning", "Deep Learning", "NLP", "AI Applications", "Full-Stack Projects"]
-    current_stack = ["Python", "FastAPI", "TensorFlow Lite", "Scikit-learn", "Streamlit"]
-    build_style = "turn models, data, and interfaces into useful real-world systems"
-```
-
-## GitHub Snapshot
-
-<div align="center">
-
-<img src="./assets/neon-contribution-grid.svg" width="100%" alt="Neon GitHub contribution style activity grid" />
-
-</div>
-
-## Currently Building Around
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20for%20Agriculture-1B998B?style=for-the-badge&logo=leaflet&logoColor=white" alt="AI for agriculture" />
-  <img src="https://img.shields.io/badge/Health%20AI-F46036?style=for-the-badge&logo=heart&logoColor=white" alt="Health AI" />
-  <img src="https://img.shields.io/badge/ML%20Pipelines-2E294E?style=for-the-badge&logo=plotly&logoColor=white" alt="ML pipelines" />
-  <img src="https://img.shields.io/badge/Android%20ML-3DDC84?style=for-the-badge&logo=android&logoColor=111111" alt="Android ML" />
-</p>
-
-<p align="center">
-  <img src="./assets/model-lab-animation.svg" width="85%" alt="Animated machine learning lab" />
-</p>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:9D4EDD,50:3C096C,100:140021" alt="Footer wave" width="100%" />
-
-</div>
+</body>
+</html>
