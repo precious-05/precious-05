@@ -1,53 +1,47 @@
 <div align="center">
 
-<!-- HEADER with gradient wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:140021,50:3C096C,100:9D4EDD&text=Alina%20Liaquat&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20%7C%20Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20NLP&descSize=17&descAlignY=58" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:140021,50:3C096C,100:00D4FF&text=Alina%20Liaquat&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20%7C%20Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20NLP&descSize=17&descAlignY=58" width="100%" />
 
-<!-- Animated typing text -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=9D4EDD&center=true&vCenter=true&width=600&lines=Building+AI+that+Matters;Machine+Learning+%7C+Deep+Learning;NLP+%7C+Full-Stack+AI;Real-World+Problem+Solver" alt="Typing SVG" />
+<!-- Typing Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=00D4FF&center=true&vCenter=true&width=600&lines=Building+AI+that+Matters;Machine+Learning+%7C+Deep+Learning;NLP+%7C+Full-Stack+AI;Real-World+Problem+Solver" alt="Typing SVG" />
 
-<!-- Badges -->
 <a href="https://www.linkedin.com/in/alina-liaquat-779347325/">
-  <img src="https://img.shields.io/badge/LinkedIn-Alina%20Liaquat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-Alina%20Liaquat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=precious-05&style=for-the-badge&color=9D4EDD&label=PROFILE+VIEWS" alt="Profile views" />
-<img src="https://img.shields.io/badge/AI%20%26%20ML-Developer-3C096C?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI ML Developer" />
-<img src="https://img.shields.io/badge/Deep%20Learning-Neural%20Nets-9D4EDD?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning" />
-<img src="https://img.shields.io/badge/NLP-Language%20AI-1B998B?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NLP" />
+<img src="https://komarev.com/ghpvc/?username=precious-05&style=for-the-badge&color=00D4FF&label=PROFILE+VIEWS" alt="Profile views badge" />
+<img src="https://img.shields.io/badge/Focus-AI%20%2B%20ML%20Applications-F46036?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI and ML focus badge" />
+<img src="https://img.shields.io/badge/Deep%20Learning-Neural%20Models-2E294E?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning badge" />
+<img src="https://img.shields.io/badge/NLP-Language%20AI-1B998B?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NLP badge" />
 
 <br />
 <br />
 
-<!-- Profile Avatar -->
 <img src="./assets/girl.gif" width="220" height="250" alt="Alina" />
 
 </div>
 
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
 ## About Me
 
-Computer Science undergraduate building practical AI, machine learning, and data-driven applications. My work usually sits at the intersection of model development, backend APIs, interactive dashboards and deployment-ready product thinking.
+I am a Computer Science undergraduate building practical AI, machine learning, and data-driven applications. My work usually sits at the intersection of model development, backend APIs, interactive dashboards and deployment-ready product thinking.
 
 I like turning real-world problems into working systems: crop disease detection for farmers, forest fire risk analysis, clinical safety tools, health prediction apps, and interactive ML products.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=111111" alt="C" />
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-<img src="https://img.shields.io/badge/Deep%20Learning-2E294E?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning" />
-<img src="https://img.shields.io/badge/NLP-1B998B?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NLP" />
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=111111" alt="Android" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111111)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-2E294E?style=flat-square&logo=pytorch&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-1B998B?style=flat-square&logo=googlegemini&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=111111)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
 
@@ -159,4 +153,4 @@ class AlinaLiaquat:
 GitHub Snapshot
 <div align="center"><img src="./assets/neon-contribution-grid.svg" width="100%" alt="Neon GitHub contribution style activity grid" /></div>
 Currently Building Around
-<p align="center"> <img src="https://img.shields.io/badge/AI%20for%20Agriculture-1B998B?style=for-the-badge&logo=leaflet&logoColor=white" alt="AI for agriculture" /> <img src="https://img.shields.io/badge/Health%20AI-F46036?style=for-the-badge&logo=heart&logoColor=white" alt="Health AI" /> <img src="https://img.shields.io/badge/ML%20Pipelines-2E294E?style=for-the-badge&logo=plotly&logoColor=white" alt="ML pipelines" /> <img src="https://img.shields.io/badge/Android%20ML-3DDC84?style=for-the-badge&logo=android&logoColor=111111" alt="Android ML" /> </p><p align="center"> <img src="./assets/model-lab-animation.svg" width="85%" alt="Animated machine learning lab" /> </p><div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:9D4EDD,50:3C096C,100:140021" alt="Footer wave" width="100%" /></div>
+<p align="center"> <img src="https://img.shields.io/badge/AI%20for%20Agriculture-1B998B?style=for-the-badge&logo=leaflet&logoColor=white" alt="AI for agriculture" /> <img src="https://img.shields.io/badge/Health%20AI-F46036?style=for-the-badge&logo=heart&logoColor=white" alt="Health AI" /> <img src="https://img.shields.io/badge/ML%20Pipelines-2E294E?style=for-the-badge&logo=plotly&logoColor=white" alt="ML pipelines" /> <img src="https://img.shields.io/badge/Android%20ML-3DDC84?style=for-the-badge&logo=android&logoColor=111111" alt="Android ML" /> </p><p align="center"> <img src="./assets/model-lab-animation.svg" width="85%" alt="Animated machine learning lab" /> </p><div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:9D4EDD,50:3C096C,100:00D4FF" alt="Footer wave" width="100%" /></div> 
