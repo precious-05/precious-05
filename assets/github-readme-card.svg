@@ -1,0 +1,271 @@
+<svg width="1200" height="1860" viewBox="0 0 1200 1860" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Alina Liaquat - AI and Machine Learning profile</title>
+  <desc id="desc">A dark neon portfolio README card for Alina Liaquat, featuring AI, machine learning, deep learning, NLP, projects, tools, and builds.</desc>
+  <defs>
+    <linearGradient id="pageBg" x1="0" y1="0" x2="1200" y2="1860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0618"/>
+      <stop offset="0.48" stop-color="#130922"/>
+      <stop offset="1" stop-color="#070411"/>
+    </linearGradient>
+    <radialGradient id="containerGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 90) rotate(90) scale(900 640)">
+      <stop stop-color="#2A1249"/>
+      <stop offset="0.62" stop-color="#12091F"/>
+      <stop offset="1" stop-color="#0A0618"/>
+    </radialGradient>
+    <linearGradient id="purpleLine" x1="128" y1="0" x2="1072" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#140021"/>
+      <stop offset="0.5" stop-color="#3C096C"/>
+      <stop offset="1" stop-color="#9D4EDD"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="540" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2D9FF"/>
+      <stop offset="0.48" stop-color="#C08CFA"/>
+      <stop offset="1" stop-color="#9D4EDD"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="920" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B998B"/>
+      <stop offset="0.5" stop-color="#38F8C7"/>
+      <stop offset="1" stop-color="#F46036"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="purpleGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="clip">
+      <rect x="42" y="34" width="1116" height="1792" rx="44"/>
+    </clipPath>
+    <style>
+      .font { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .mono { font-family: SFMono-Regular, Consolas, Liberation Mono, monospace; }
+      .small { font-size: 19px; font-weight: 600; letter-spacing: .2px; }
+      .body { font-size: 22px; font-weight: 400; fill: #CBC2E0; }
+      .muted { fill: #B8A6D9; }
+      .sub { font-size: 19px; font-weight: 700; fill: #B290DA; }
+      .pillText { font-size: 18px; font-weight: 700; fill: #D6C2FC; }
+      .chipText { font-size: 17px; font-weight: 700; fill: #CBB7F0; }
+      .cardTitle { font-size: 30px; font-weight: 800; fill: #DCC9FF; }
+      .section { font-size: 39px; font-weight: 850; fill: url(#titleGrad); }
+      .panel { fill: #120A23; fill-opacity: .73; stroke: #9D4EDD; stroke-opacity: .18; stroke-width: 1.5; }
+      .card { fill: #120A23; fill-opacity: .78; stroke: #9D4EDD; stroke-opacity: .18; stroke-width: 1.5; }
+      .pill { fill: #1B1031; fill-opacity: .82; stroke: #9D4EDD; stroke-opacity: .25; stroke-width: 1.2; }
+      .chip { fill: #24123F; fill-opacity: .78; stroke: #9D4EDD; stroke-opacity: .22; stroke-width: 1.1; }
+      .tool { font-size: 19px; font-weight: 800; fill: #E4D8FF; }
+      .codeKey { fill: #B48AD9; font-weight: 800; }
+      .codeString { fill: #7FC9A8; }
+      .gridCell { stroke: #202A4D; stroke-width: 1; rx: 3.5; }
+      .off { fill: #151B34; }
+      .low { fill: #194B5C; }
+      .mid { fill: #1B998B; }
+      .high { fill: #38F8C7; }
+      .hot { fill: #F46036; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1860" fill="url(#pageBg)"/>
+  <rect x="42" y="34" width="1116" height="1792" rx="44" fill="url(#containerGlow)" stroke="#9D4EDD" stroke-opacity=".24" filter="url(#shadow)"/>
+  <g clip-path="url(#clip)">
+    <circle cx="220" cy="200" r="190" fill="#9D4EDD" opacity=".06"/>
+    <circle cx="1000" cy="680" r="230" fill="#3C096C" opacity=".08"/>
+    <circle cx="230" cy="1470" r="230" fill="#38F8C7" opacity=".035"/>
+  </g>
+
+  <g class="font">
+    <g filter="url(#shadow)">
+      <rect x="78" y="76" width="1044" height="220" rx="34" fill="#10071E" stroke="#9D4EDD" stroke-opacity=".22"/>
+      <path d="M78 176C180 108 292 125 398 154C510 184 614 218 728 174C850 126 954 82 1122 138V76H78V176Z" fill="url(#purpleLine)" opacity=".92"/>
+      <path d="M78 248C199 183 311 206 424 235C542 266 654 299 775 252C895 205 991 171 1122 204V296H78V248Z" fill="url(#purpleLine)" opacity=".72"/>
+      <text x="600" y="159" text-anchor="middle" font-size="60" font-weight="850" fill="#FFFFFF">Alina Liaquat</text>
+      <text x="600" y="210" text-anchor="middle" font-size="23" font-weight="650" fill="#F1E9FF">AI | Machine Learning | Deep Learning | NLP</text>
+    </g>
+
+    <g transform="translate(145 324)">
+      <rect x="0" y="0" width="178" height="42" rx="21" class="pill"/>
+      <text x="89" y="27" text-anchor="middle" class="pillText">LinkedIn</text>
+      <rect x="198" y="0" width="156" height="42" rx="21" class="pill"/>
+      <text x="276" y="27" text-anchor="middle" class="pillText">1.2k views</text>
+      <rect x="374" y="0" width="134" height="42" rx="21" class="pill"/>
+      <text x="441" y="27" text-anchor="middle" class="pillText">AI + ML</text>
+      <rect x="528" y="0" width="194" height="42" rx="21" class="pill"/>
+      <text x="625" y="27" text-anchor="middle" class="pillText">Deep Learning</text>
+      <rect x="742" y="0" width="132" height="42" rx="21" class="pill"/>
+      <text x="808" y="27" text-anchor="middle" class="pillText">NLP</text>
+    </g>
+
+    <g transform="translate(128 416)">
+      <circle cx="116" cy="116" r="116" fill="url(#purpleLine)" filter="url(#purpleGlow)"/>
+      <circle cx="116" cy="116" r="104" fill="#0A0618" stroke="#0A0618" stroke-width="6"/>
+      <text x="116" y="102" text-anchor="middle" font-size="64" font-weight="800" fill="#D9B3FF">AI</text>
+      <text x="116" y="139" text-anchor="middle" font-size="24" font-weight="700" fill="#BFA5EE">builder</text>
+
+      <rect x="290" y="18" width="654" height="198" rx="34" class="panel"/>
+      <text x="332" y="72" font-size="36" font-weight="850" fill="url(#titleGrad)">Alina Liaquat</text>
+      <text x="332" y="116" class="body">Computer Science undergraduate building practical AI,</text>
+      <text x="332" y="148" class="body">machine learning, and data-driven applications. I turn</text>
+      <text x="332" y="180" class="body">real-world problems into working systems across agriculture,</text>
+      <text x="332" y="212" class="body">clinical safety, health prediction, and interactive ML products.</text>
+    </g>
+
+    <g transform="translate(112 700)">
+      <rect x="0" y="0" width="86" height="36" rx="18" class="chip"/><text x="43" y="24" text-anchor="middle" class="chipText">Python</text>
+      <rect x="102" y="0" width="68" height="36" rx="18" class="chip"/><text x="136" y="24" text-anchor="middle" class="chipText">Java</text>
+      <rect x="186" y="0" width="62" height="36" rx="18" class="chip"/><text x="217" y="24" text-anchor="middle" class="chipText">C++</text>
+      <rect x="264" y="0" width="44" height="36" rx="18" class="chip"/><text x="286" y="24" text-anchor="middle" class="chipText">C</text>
+      <rect x="324" y="0" width="126" height="36" rx="18" class="chip"/><text x="387" y="24" text-anchor="middle" class="chipText">TensorFlow</text>
+      <rect x="466" y="0" width="94" height="36" rx="18" class="chip"/><text x="513" y="24" text-anchor="middle" class="chipText">PyTorch</text>
+      <rect x="576" y="0" width="62" height="36" rx="18" class="chip"/><text x="607" y="24" text-anchor="middle" class="chipText">NLP</text>
+      <rect x="654" y="0" width="122" height="36" rx="18" class="chip"/><text x="715" y="24" text-anchor="middle" class="chipText">scikit-learn</text>
+      <rect x="792" y="0" width="86" height="36" rx="18" class="chip"/><text x="835" y="24" text-anchor="middle" class="chipText">FastAPI</text>
+      <rect x="894" y="0" width="106" height="36" rx="18" class="chip"/><text x="947" y="24" text-anchor="middle" class="chipText">Streamlit</text>
+      <rect x="196" y="52" width="94" height="36" rx="18" class="chip"/><text x="243" y="76" text-anchor="middle" class="chipText">Android</text>
+      <rect x="306" y="52" width="122" height="36" rx="18" class="chip"/><text x="367" y="76" text-anchor="middle" class="chipText">PostgreSQL</text>
+      <rect x="444" y="52" width="110" height="36" rx="18" class="chip"/><text x="499" y="76" text-anchor="middle" class="chipText">MongoDB</text>
+      <rect x="570" y="52" width="58" height="36" rx="18" class="chip"/><text x="599" y="76" text-anchor="middle" class="chipText">Git</text>
+    </g>
+
+    <g transform="translate(98 846)">
+      <text x="0" y="0" class="section">Featured Projects</text>
+      <rect x="0" y="16" width="260" height="4" rx="2" fill="#9D4EDD"/>
+    </g>
+
+    <g transform="translate(98 894)">
+      <g>
+        <rect x="0" y="0" width="486" height="190" rx="28" class="card"/>
+        <text x="28" y="48" class="cardTitle">Bazgar AI</text>
+        <text x="28" y="80" class="sub">Apple Disease Detection - Smart Farming</text>
+        <text x="28" y="118" class="body">Full-stack AI for Balochi farmers: leaf disease</text>
+        <text x="28" y="149" class="body">diagnostics, treatment guidance, voice support,</text>
+        <text x="28" y="180" class="body">and UCB1 reinforcement crop assistant.</text>
+      </g>
+      <g transform="translate(518 0)">
+        <rect x="0" y="0" width="486" height="190" rx="28" class="card"/>
+        <text x="28" y="48" class="cardTitle">EcoSafe AI</text>
+        <text x="28" y="80" class="sub">Forest Fire Detection &amp; Risk Analysis</text>
+        <text x="28" y="118" class="body">Offline-first Android app with risk mapping,</text>
+        <text x="28" y="149" class="body">CameraX capture, TensorFlow Lite fire</text>
+        <text x="28" y="180" class="body">classification, and FastAPI backend.</text>
+      </g>
+      <g transform="translate(0 218)">
+        <rect x="0" y="0" width="486" height="190" rx="28" class="card"/>
+        <text x="28" y="48" class="cardTitle">ThyroAssess AI</text>
+        <text x="28" y="80" class="sub">Thyroid Cancer Risk Assessment</text>
+        <text x="28" y="118" class="body">ML web app trained on 200K+ records with</text>
+        <text x="28" y="149" class="body">EDA, Logistic Regression, FastAPI, MongoDB,</text>
+        <text x="28" y="180" class="body">and Vercel deployment.</text>
+      </g>
+      <g transform="translate(518 218)">
+        <rect x="0" y="0" width="486" height="190" rx="28" class="card"/>
+        <text x="28" y="48" class="cardTitle">MediNomix</text>
+        <text x="28" y="80" class="sub">Medication Error Prevention</text>
+        <text x="28" y="118" class="body">Clinical database for LASA medication errors:</text>
+        <text x="28" y="149" class="body">phonetic similarity, OpenFDA ETL, Streamlit,</text>
+        <text x="28" y="180" class="body">and Neon PostgreSQL.</text>
+      </g>
+      <g transform="translate(0 436)">
+        <rect x="0" y="0" width="486" height="190" rx="28" class="card"/>
+        <text x="28" y="48" class="cardTitle">Prosperous Farmer</text>
+        <text x="28" y="80" class="sub">Agriculture Data Web App</text>
+        <text x="28" y="118" class="body">Bilingual Urdu-English dashboard for crop</text>
+        <text x="28" y="149" class="body">tracking, CRUD, CSV exports, and interactive</text>
+        <text x="28" y="180" class="body">yield analytics.</text>
+      </g>
+      <g transform="translate(518 436)">
+        <rect x="0" y="0" width="486" height="190" rx="28" class="card"/>
+        <text x="28" y="48" class="cardTitle">Dakati Game</text>
+        <text x="28" y="80" class="sub">Dacoit-Themed Social Deduction</text>
+        <text x="28" y="118" class="body">Cross-platform game with Kivy GUI, circular</text>
+        <text x="28" y="149" class="body">layout, voting logic, and Android packaging.</text>
+      </g>
+    </g>
+
+    <g transform="translate(98 1548)">
+      <rect x="0" y="0" width="1004" height="136" rx="30" class="panel"/>
+      <text x="30" y="42" font-size="27" font-weight="850" fill="#C7B0F0">More Builds</text>
+      <text x="30" y="82" class="sub">US Natural Resources Revenue EDA</text>
+      <text x="386" y="82" class="body">Cleaned, transformed, explored monthly revenue.</text>
+      <text x="30" y="119" class="sub">Arduino Voice &amp; Bluetooth Robot Car</text>
+      <text x="386" y="119" class="body">Voice and Bluetooth controlled robot with real-time response.</text>
+    </g>
+
+    <g transform="translate(98 1714)">
+      <rect x="0" y="0" width="1004" height="64" rx="32" class="panel"/>
+      <text x="58" y="40" class="tool">Python</text>
+      <text x="174" y="40" class="tool">TensorFlow</text>
+      <text x="348" y="40" class="tool">FastAPI</text>
+      <text x="480" y="40" class="tool">Java</text>
+      <text x="574" y="40" class="tool">Android</text>
+      <text x="716" y="40" class="tool">PostgreSQL</text>
+      <text x="898" y="40" class="tool">Git</text>
+    </g>
+
+    <g transform="translate(98 1224)">
+      <rect x="0" y="0" width="1004" height="156" rx="28" fill="#0A0519" fill-opacity=".82" stroke="#9D4EDD" stroke-opacity=".24"/>
+      <text x="30" y="44" class="mono body"><tspan class="codeKey">class</tspan> AlinaLiaquat:</text>
+      <text x="62" y="82" class="mono body"><tspan class="codeKey">focus</tspan> = [<tspan class="codeString">"Machine Learning"</tspan>, <tspan class="codeString">"Deep Learning"</tspan>, <tspan class="codeString">"NLP"</tspan>]</text>
+      <text x="62" y="120" class="mono body"><tspan class="codeKey">build_style</tspan> = <tspan class="codeString">"models, data, and interfaces into real-world systems"</tspan></text>
+    </g>
+
+    <g transform="translate(98 1412)">
+      <rect x="0" y="0" width="1004" height="102" rx="28" fill="#080B1F" stroke="#1B998B" stroke-opacity=".45"/>
+      <text x="28" y="38" font-size="24" font-weight="850" fill="#E9F8FF">Contribution Glow</text>
+      <g transform="translate(28 58)">
+        <rect x="0" y="0" width="13" height="13" class="gridCell low"/>
+        <rect x="21" y="0" width="13" height="13" class="gridCell off"/>
+        <rect x="42" y="0" width="13" height="13" class="gridCell mid"/>
+        <rect x="63" y="0" width="13" height="13" class="gridCell high" filter="url(#softGlow)"/>
+        <rect x="84" y="0" width="13" height="13" class="gridCell hot" filter="url(#softGlow)"/>
+        <rect x="126" y="0" width="13" height="13" class="gridCell low"/>
+        <rect x="147" y="0" width="13" height="13" class="gridCell mid"/>
+        <rect x="168" y="0" width="13" height="13" class="gridCell high"/>
+        <rect x="189" y="0" width="13" height="13" class="gridCell off"/>
+        <rect x="210" y="0" width="13" height="13" class="gridCell mid"/>
+        <rect x="252" y="0" width="13" height="13" class="gridCell hot"/>
+        <rect x="273" y="0" width="13" height="13" class="gridCell high"/>
+        <rect x="294" y="0" width="13" height="13" class="gridCell mid"/>
+        <rect x="315" y="0" width="13" height="13" class="gridCell low"/>
+        <rect x="336" y="0" width="13" height="13" class="gridCell off"/>
+        <rect x="378" y="0" width="13" height="13" class="gridCell mid"/>
+        <rect x="399" y="0" width="13" height="13" class="gridCell high"/>
+        <rect x="420" y="0" width="13" height="13" class="gridCell hot" filter="url(#softGlow)"/>
+        <rect x="441" y="0" width="13" height="13" class="gridCell high"/>
+        <rect x="462" y="0" width="13" height="13" class="gridCell low"/>
+        <rect x="504" y="0" width="13" height="13" class="gridCell off"/>
+        <rect x="525" y="0" width="13" height="13" class="gridCell low"/>
+        <rect x="546" y="0" width="13" height="13" class="gridCell mid"/>
+        <rect x="567" y="0" width="13" height="13" class="gridCell high"/>
+        <rect x="588" y="0" width="13" height="13" class="gridCell hot"/>
+        <rect x="630" y="0" width="13" height="13" class="gridCell mid"/>
+        <rect x="651" y="0" width="13" height="13" class="gridCell high"/>
+        <rect x="672" y="0" width="13" height="13" class="gridCell mid"/>
+        <rect x="693" y="0" width="13" height="13" class="gridCell low"/>
+        <rect x="714" y="0" width="13" height="13" class="gridCell off"/>
+        <rect x="756" y="0" width="13" height="13" class="gridCell low"/>
+        <rect x="777" y="0" width="13" height="13" class="gridCell mid"/>
+        <rect x="798" y="0" width="13" height="13" class="gridCell high"/>
+        <rect x="819" y="0" width="13" height="13" class="gridCell hot" filter="url(#softGlow)"/>
+        <rect x="840" y="0" width="13" height="13" class="gridCell high"/>
+        <rect x="882" y="0" width="13" height="13" class="gridCell off"/>
+        <rect x="903" y="0" width="13" height="13" class="gridCell low"/>
+        <rect x="924" y="0" width="13" height="13" class="gridCell mid"/>
+        <rect x="945" y="0" width="13" height="13" class="gridCell high"/>
+      </g>
+      <text x="840" y="38" font-size="18" font-weight="700" fill="#8EA4C8">less  -  more</text>
+    </g>
+
+    <g transform="translate(276 181)">
+      <path d="M0 0H648" stroke="#FFFFFF" stroke-opacity=".14"/>
+    </g>
+  </g>
+</svg>
