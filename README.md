@@ -20,7 +20,7 @@
 
 ## About Me
 
-I am a Computer Science undergraduate building practical AI, machine learning, and data-driven applications. My work usually sits at the intersection of model development, backend APIs, interactive dashboards and deployment-ready product thinking.
+I am a Computer Science student building practical AI, machine learning, and data-driven applications. My work usually sits at the intersection of model development, backend APIs, interactive dashboards and deployment-ready product thinking.
 
 I like turning real-world problems into working systems: crop disease detection for farmers, forest fire risk analysis, clinical safety tools, health prediction apps, and interactive ML products.
 
