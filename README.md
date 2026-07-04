@@ -7,7 +7,6 @@
 <a href="https://www.linkedin.com/in/alina-liaquat-779347325/">
   <img src="https://img.shields.io/badge/LinkedIn-Alina%20Liaquat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=precious-05&style=for-the-badge&color=1B998B&label=PROFILE+VIEWS" alt="Profile views badge" />
 <img src="https://img.shields.io/badge/Focus-AI%20%2B%20ML%20Applications-F46036?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI and ML focus badge" />
 <img src="https://img.shields.io/badge/Deep%20Learning-Neural%20Models-2E294E?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning badge" />
 <img src="https://img.shields.io/badge/NLP-Language%20AI-1B998B?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NLP badge" />
