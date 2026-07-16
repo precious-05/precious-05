@@ -9,7 +9,7 @@
 </a>
 <img src="https://img.shields.io/badge/Focus-AI%20%2B%20ML%20Applications-F46036?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI and ML focus badge" />
 <img src="https://img.shields.io/badge/Deep%20Learning-Neural%20Models-2E294E?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning badge" />
-<img src="https://img.shields.io/badge/NLP?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NLP badge" />
+<img src="https://img.shields.io/badge/NLP-1B998?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NLP badge" />
 
 <br />
 <br />
