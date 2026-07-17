@@ -1,0 +1,82 @@
+<svg width="800" height="180" viewBox="0 0 800 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0D1A"/>
+      <stop offset="100%" stop-color="#1A0B2E"/>
+    </linearGradient>
+    <linearGradient id="s1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9B5DE5"/>
+      <stop offset="100%" stop-color="#7A3BC9"/>
+    </linearGradient>
+    <linearGradient id="s2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F15BB5"/>
+      <stop offset="100%" stop-color="#C73B92"/>
+    </linearGradient>
+    <linearGradient id="s3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F46036"/>
+      <stop offset="100%" stop-color="#D43D14"/>
+    </linearGradient>
+    <linearGradient id="s4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B998B"/>
+      <stop offset="100%" stop-color="#137A6F"/>
+    </linearGradient>
+    <linearGradient id="s5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E294E"/>
+      <stop offset="100%" stop-color="#1C1733"/>
+    </linearGradient>
+    <filter id="glowFilter2">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="180" fill="url(#pipeBg)" rx="12"/>
+
+  <!-- Step 1 -->
+  <rect x="30" y="30" width="100" height="120" rx="8" fill="url(#s1)" opacity="0.15"/>
+  <rect x="30" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#s1)" stroke-width="1.5"/>
+  <circle cx="80" cy="70" r="6" fill="#9B5DE5"/>
+  <text x="80" y="105" font-family="Arial, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle" font-weight="bold">Data</text>
+  <text x="80" y="120" font-family="Arial, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Exploration</text>
+
+  <line x1="135" y1="90" x2="165" y2="90" stroke="#9B5DE5" stroke-width="1.5" opacity="0.6"/>
+  <polygon points="165,85 175,90 165,95" fill="#9B5DE5" opacity="0.6"/>
+
+  <!-- Step 2 -->
+  <rect x="180" y="30" width="100" height="120" rx="8" fill="url(#s2)" opacity="0.15"/>
+  <rect x="180" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#s2)" stroke-width="1.5"/>
+  <circle cx="230" cy="70" r="6" fill="#F15BB5"/>
+  <text x="230" y="105" font-family="Arial, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle" font-weight="bold">Model</text>
+  <text x="230" y="120" font-family="Arial, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Training</text>
+
+  <line x1="285" y1="90" x2="315" y2="90" stroke="#F15BB5" stroke-width="1.5" opacity="0.6"/>
+  <polygon points="315,85 325,90 315,95" fill="#F15BB5" opacity="0.6"/>
+
+  <!-- Step 3 -->
+  <rect x="330" y="30" width="100" height="120" rx="8" fill="url(#s3)" opacity="0.15"/>
+  <rect x="330" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#s3)" stroke-width="1.5"/>
+  <circle cx="380" cy="70" r="6" fill="#F46036"/>
+  <text x="380" y="105" font-family="Arial, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle" font-weight="bold">Optimize</text>
+  <text x="380" y="120" font-family="Arial, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Convert</text>
+
+  <line x1="435" y1="90" x2="465" y2="90" stroke="#F46036" stroke-width="1.5" opacity="0.6"/>
+  <polygon points="465,85 475,90 465,95" fill="#F46036" opacity="0.6"/>
+
+  <!-- Step 4 -->
+  <rect x="480" y="30" width="100" height="120" rx="8" fill="url(#s4)" opacity="0.15"/>
+  <rect x="480" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#s4)" stroke-width="1.5"/>
+  <circle cx="530" cy="70" r="6" fill="#1B998B"/>
+  <text x="530" y="105" font-family="Arial, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle" font-weight="bold">Backend</text>
+  <text x="530" y="120" font-family="Arial, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">API</text>
+
+  <line x1="585" y1="90" x2="615" y2="90" stroke="#1B998B" stroke-width="1.5" opacity="0.6"/>
+  <polygon points="615,85 625,90 615,95" fill="#1B998B" opacity="0.6"/>
+
+  <!-- Step 5 -->
+  <rect x="630" y="30" width="80" height="120" rx="8" fill="url(#s5)" opacity="0.15"/>
+  <rect x="630" y="30" width="80" height="120" rx="8" fill="none" stroke="url(#s5)" stroke-width="1.5"/>
+  <circle cx="670" cy="70" r="6" fill="#2E294E"/>
+  <text x="670" y="105" font-family="Arial, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle" font-weight="bold">App</text>
+  <text x="670" y="120" font-family="Arial, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Integration</text>
+
+  <circle cx="400" cy="150" r="40" fill="#9B5DE5" opacity="0.1" filter="url(#glowFilter2)"/>
+</svg>

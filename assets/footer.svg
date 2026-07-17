@@ -1,0 +1,46 @@
+<svg width="100%" height="80" viewBox="0 0 800 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A1A"/>
+      <stop offset="100%" stop-color="#1A0B2E"/>
+    </linearGradient>
+    <linearGradient id="footerOrb1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9B5DE5" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F15BB5" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="footerOrb2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F15BB5" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#9B5DE5" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="footerBlur">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="80" fill="url(#footerBg)" rx="8"/>
+
+  <circle cx="150" cy="40" r="45" fill="url(#footerOrb1)" filter="url(#footerBlur)"/>
+  <circle cx="650" cy="40" r="40" fill="url(#footerOrb2)" filter="url(#footerBlur)"/>
+
+  <!-- Footer Text with simpler styling -->
+  <rect x="290" y="24" width="220" height="16" rx="3" fill="#9B5DE5" opacity="0.12"/>
+  <text x="400" y="36" font-family="Arial, sans-serif" font-size="10" fill="#6B5B8A" text-anchor="middle" letter-spacing="3" font-weight="bold">
+    BUILT WITH PYTHON & TENSORFLOW
+  </text>
+
+  <rect x="285" y="48" width="230" height="14" rx="3" fill="#F15BB5" opacity="0.08"/>
+  <text x="400" y="58" font-family="Arial, sans-serif" font-size="9" fill="#4A3A6A" text-anchor="middle" letter-spacing="2">
+    DEPLOYING INTELLIGENT SYSTEMS
+  </text>
+
+  <!-- Animated dots -->
+  <circle cx="370" cy="72" r="1.5" fill="#9B5DE5" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="72" r="1.5" fill="#F15BB5" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="430" cy="72" r="1.5" fill="#9B5DE5" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
