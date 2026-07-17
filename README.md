@@ -237,6 +237,5 @@ I am always open to collaborating on ML/AI projects or discussing new ideas.
 
 <div align="center">
 
-<img src="./assets/footer.svg" width="100%" alt="Footer" />
 
 </div>
