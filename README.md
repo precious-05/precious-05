@@ -114,11 +114,6 @@
 <img src="https://img.shields.io/badge/Focus-Custom%20ML%20Models-F46036?style=for-the-badge&logo=tensorflow&logoColor=white" alt="ML Focus" />
 <img src="https://img.shields.io/badge/Deep%20Learning-Neural%20Networks-2E294E?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning" />
 
-<br />
-<br />
-
-<img src="./assets/girl.gif" width="150" height="170" alt="Alina" />
-
 </div>
 
 ---
@@ -383,6 +378,28 @@ class AlinaLiaquat:
     current_stack = ["Python", "TensorFlow", "Scikit-learn", "FastAPI", "Streamlit"]
     philosophy = "Build custom models that solve real-world problems, from data to deployment."
 ```
+
+---
+
+## GitHub Analytics
+
+<div align="center">
+
+<a href="https://github.com/alinaliaquat">
+  <img src="https://github-readme-stats.vercel.app/api?username=alinaliaquat&show_icons=true&bg_color=0A0A1A&title_color=9B5DE5&text_color=C4B5D4&icon_color=F15BB5&border_color=1A0B2E&hide_border=true" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/alinaliaquat">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alinaliaquat&background=0A0A1A&stroke=1A0B2E&ring=F15BB5&fire=F15BB5&currStreakNum=C4B5D4&sideNums=C4B5D4&currStreakLabel=9B5DE5&sideLabels=9B5DE5&dates=C4B5D4&hide_border=true" alt="GitHub Streak" />
+</a>
+
+<br />
+<br />
+
+<a href="https://github.com/alinaliaquat">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alinaliaquat&layout=compact&bg_color=0A0A1A&title_color=9B5DE5&text_color=C4B5D4&icon_color=F15BB5&border_color=1A0B2E&hide_border=true" alt="Top Languages" />
+</a>
+
+</div>
 
 ---
 
