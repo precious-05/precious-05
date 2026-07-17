@@ -1,9 +1,10 @@
 
+
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=3500&pause=300&color=9B5DE5&center=true&vCenter=true&width=700&lines=Alina+Liaquat;AI+%26+Machine+Learning+Engineer;Building+Intelligent+Systems" alt="Typing SVG with Alina Liaquat, AI & Machine Learning Engineer, Building Intelligent Systems" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=3500&pause=300&color=9B5DE5&center=true&vCenter=true&width=700&lines=Alina+Liaquat;AI+%26+Machine+Learning+Engineer;Building+Intelligent+Systems" alt="Typing SVG" /></a>
 
-<!-- Custom Animated SVG Header -->
+<!-- Custom Animated SVG Header - Simplified Styling -->
 <svg width="100%" height="220" viewBox="0 0 800 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -12,103 +13,94 @@
       <stop offset="100%" stop-color="#0D0D1A"/>
     </linearGradient>
     <linearGradient id="orb1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#9B5DE5" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#F15BB5" stop-opacity="0.2"/>
+      <stop offset="0%" stop-color="#9B5DE5" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#F15BB5" stop-opacity="0.1"/>
     </linearGradient>
     <linearGradient id="orb2" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#F15BB5" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#9B5DE5" stop-opacity="0.1"/>
+      <stop offset="0%" stop-color="#F15BB5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#9B5DE5" stop-opacity="0.05"/>
     </linearGradient>
-    <linearGradient id="orb3" x1="50%" y1="0%" x2="50%" y2="100%">
-      <stop offset="0%" stop-color="#1B998B" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#1B998B" stop-opacity="0"/>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B5DE5"/>
+      <stop offset="50%" stop-color="#F15BB5"/>
+      <stop offset="100%" stop-color="#9B5DE5"/>
     </linearGradient>
     <filter id="glowFilter">
-      <feGaussianBlur stdDeviation="35"/>
+      <feGaussianBlur stdDeviation="30"/>
     </filter>
     <filter id="softGlow">
-      <feGaussianBlur stdDeviation="15"/>
+      <feGaussianBlur stdDeviation="12"/>
     </filter>
   </defs>
 
   <rect width="800" height="220" fill="url(#headerBg)" rx="12"/>
 
   <!-- Animated Background Orbs -->
-  <circle cx="200" cy="110" r="100" fill="url(#orb1)" filter="url(#glowFilter)">
-    <animate attributeName="r" values="100;120;100" dur="8s" repeatCount="indefinite"/>
+  <circle cx="200" cy="110" r="90" fill="url(#orb1)" filter="url(#glowFilter)">
+    <animate attributeName="r" values="90;110;90" dur="8s" repeatCount="indefinite"/>
     <animate attributeName="cx" values="200;220;200" dur="8s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="600" cy="110" r="90" fill="url(#orb2)" filter="url(#glowFilter)">
-    <animate attributeName="r" values="90;110;90" dur="7s" repeatCount="indefinite"/>
+  <circle cx="600" cy="110" r="80" fill="url(#orb2)" filter="url(#glowFilter)">
+    <animate attributeName="r" values="80;100;80" dur="7s" repeatCount="indefinite"/>
     <animate attributeName="cx" values="600;580;600" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="400" cy="180" r="70" fill="url(#orb3)" filter="url(#glowFilter)">
-    <animate attributeName="r" values="70;90;70" dur="9s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Floating Particles -->
-  <circle cx="120" cy="60" r="2.5" fill="#9B5DE5" opacity="0.7">
-    <animate attributeName="cy" values="60;40;60" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="5s" repeatCount="indefinite"/>
+  <circle cx="120" cy="50" r="3" fill="#9B5DE5" opacity="0.6">
+    <animate attributeName="cy" values="50;35;50" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="680" cy="150" r="2" fill="#F15BB5" opacity="0.6">
-    <animate attributeName="cy" values="150;130;150" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="4.5s" repeatCount="indefinite"/>
+  <circle cx="680" cy="160" r="2.5" fill="#F15BB5" opacity="0.5">
+    <animate attributeName="cy" values="160;140;160" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="4.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="300" cy="170" r="2" fill="#1B998B" opacity="0.5">
-    <animate attributeName="cy" values="170;155;170" dur="6s" repeatCount="indefinite"/>
+  <circle cx="300" cy="180" r="2" fill="#1B998B" opacity="0.4">
+    <animate attributeName="cy" values="180;165;180" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="500" cy="50" r="2.5" fill="#F46036" opacity="0.5">
-    <animate attributeName="cy" values="50;35;50" dur="5.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="5.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="60" cy="170" r="1.5" fill="#9B5DE5" opacity="0.4">
-    <animate attributeName="cx" values="60;80;60" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="740" cy="60" r="1.5" fill="#F15BB5" opacity="0.4">
-    <animate attributeName="cx" values="740;720;740" dur="6.5s" repeatCount="indefinite"/>
+  <circle cx="500" cy="45" r="2.5" fill="#F46036" opacity="0.4">
+    <animate attributeName="cy" values="45;30;45" dur="5.5s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Pulsing Center Ring -->
-  <circle cx="400" cy="110" r="30" stroke="#9B5DE5" stroke-width="1.5" fill="none" opacity="0.6">
-    <animate attributeName="r" values="30;50;30" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0;0.6" dur="4s" repeatCount="indefinite"/>
+  <circle cx="400" cy="110" r="35" stroke="#9B5DE5" stroke-width="1.5" fill="none" opacity="0.4">
+    <animate attributeName="r" values="35;55;35" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="4s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="400" cy="110" r="20" stroke="#F15BB5" stroke-width="1" fill="none" opacity="0.4">
-    <animate attributeName="r" values="20;40;20" dur="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.4;0;0.4" dur="3.5s" repeatCount="indefinite"/>
+  <circle cx="400" cy="110" r="22" stroke="#F15BB5" stroke-width="1" fill="none" opacity="0.3">
+    <animate attributeName="r" values="22;42;22" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="3.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="400" cy="110" r="10" fill="#9B5DE5" opacity="0.8">
-    <animate attributeName="r" values="10;15;10" dur="3s" repeatCount="indefinite"/>
+  <circle cx="400" cy="110" r="8" fill="#9B5DE5" opacity="0.8">
+    <animate attributeName="r" values="8;14;8" dur="3s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Title Text -->
-  <text x="400" y="98" font-family="Space Grotesk, sans-serif" font-size="44" font-weight="700" fill="white" text-anchor="middle" letter-spacing="2">
+  <!-- Title - Using gradient fill -->
+  <text x="400" y="98" font-family="Arial, sans-serif" font-size="46" font-weight="bold" fill="url(#titleGrad)" text-anchor="middle" letter-spacing="3">
     Alina Liaquat
   </text>
 
-  <!-- Subtitle Text -->
-  <text x="400" y="142" font-family="Inter, sans-serif" font-size="16" fill="#C4B5D4" text-anchor="middle" letter-spacing="4" font-weight="300">
+  <!-- Subtitle with glow -->
+  <text x="400" y="142" font-family="Arial, sans-serif" font-size="15" fill="#C4B5D4" text-anchor="middle" letter-spacing="5" font-weight="300" filter="url(#softGlow)">
     ARTIFICIAL INTELLIGENCE · MACHINE LEARNING
   </text>
 
   <!-- Decorative Lines -->
-  <line x1="260" y1="165" x2="540" y2="165" stroke="#9B5DE5" stroke-width="1" opacity="0.3">
+  <line x1="260" y1="165" x2="540" y2="165" stroke="#9B5DE5" stroke-width="1.2" opacity="0.3">
     <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
   </line>
   <line x1="320" y1="174" x2="480" y2="174" stroke="#F15BB5" stroke-width="0.8" opacity="0.2">
     <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.5s" repeatCount="indefinite"/>
   </line>
 
-  <!-- Bottom Decorative Dots -->
-  <circle cx="380" cy="195" r="2" fill="#9B5DE5" opacity="0.5">
+  <!-- Bottom dots -->
+  <circle cx="380" cy="195" r="2.5" fill="#9B5DE5" opacity="0.5">
     <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="400" cy="195" r="2" fill="#F15BB5" opacity="0.6">
+  <circle cx="400" cy="195" r="2.5" fill="#F15BB5" opacity="0.6">
     <animate attributeName="opacity" values="0.6;0;0.6" dur="3.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="420" cy="195" r="2" fill="#9B5DE5" opacity="0.5">
+  <circle cx="420" cy="195" r="2.5" fill="#9B5DE5" opacity="0.5">
     <animate attributeName="opacity" values="0.5;0;0.5" dur="2.8s" repeatCount="indefinite"/>
   </circle>
 </svg>
@@ -160,36 +152,31 @@ My primary focus is on the full lifecycle of ML projects: from data exploration 
 
 <div align="center">
 
-<!-- Custom SVG for ML Pipeline with Glowing Dark Style -->
 <svg width="800" height="180" viewBox="0 0 800 180" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0D0D1A"/>
       <stop offset="100%" stop-color="#1A0B2E"/>
     </linearGradient>
-    <linearGradient id="step1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="s1" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#9B5DE5"/>
       <stop offset="100%" stop-color="#7A3BC9"/>
     </linearGradient>
-    <linearGradient id="step2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="s2" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F15BB5"/>
       <stop offset="100%" stop-color="#C73B92"/>
     </linearGradient>
-    <linearGradient id="step3" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="s3" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F46036"/>
       <stop offset="100%" stop-color="#D43D14"/>
     </linearGradient>
-    <linearGradient id="step4" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="s4" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1B998B"/>
       <stop offset="100%" stop-color="#137A6F"/>
     </linearGradient>
-    <linearGradient id="step5" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="s5" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#2E294E"/>
       <stop offset="100%" stop-color="#1C1733"/>
-    </linearGradient>
-    <linearGradient id="step6" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#D90368"/>
-      <stop offset="100%" stop-color="#A8024F"/>
     </linearGradient>
     <filter id="glowFilter2">
       <feGaussianBlur stdDeviation="8"/>
@@ -198,58 +185,53 @@ My primary focus is on the full lifecycle of ML projects: from data exploration 
 
   <rect width="800" height="180" fill="url(#pipeBg)" rx="12"/>
 
-  <!-- Step 1: Data -->
-  <rect x="30" y="30" width="100" height="120" rx="8" fill="url(#step1)" opacity="0.15"/>
-  <rect x="30" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#step1)" stroke-width="1.5"/>
+  <!-- Step 1 -->
+  <rect x="30" y="30" width="100" height="120" rx="8" fill="url(#s1)" opacity="0.15"/>
+  <rect x="30" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#s1)" stroke-width="1.5"/>
   <circle cx="80" cy="70" r="6" fill="#9B5DE5"/>
-  <text x="80" y="105" font-family="Inter, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle">Data</text>
-  <text x="80" y="120" font-family="Inter, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Exploration</text>
+  <text x="80" y="105" font-family="Arial, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle" font-weight="bold">Data</text>
+  <text x="80" y="120" font-family="Arial, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Exploration</text>
 
-  <!-- Arrow 1 -->
   <line x1="135" y1="90" x2="165" y2="90" stroke="#9B5DE5" stroke-width="1.5" opacity="0.6"/>
   <polygon points="165,85 175,90 165,95" fill="#9B5DE5" opacity="0.6"/>
 
-  <!-- Step 2: Model -->
-  <rect x="180" y="30" width="100" height="120" rx="8" fill="url(#step2)" opacity="0.15"/>
-  <rect x="180" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#step2)" stroke-width="1.5"/>
+  <!-- Step 2 -->
+  <rect x="180" y="30" width="100" height="120" rx="8" fill="url(#s2)" opacity="0.15"/>
+  <rect x="180" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#s2)" stroke-width="1.5"/>
   <circle cx="230" cy="70" r="6" fill="#F15BB5"/>
-  <text x="230" y="105" font-family="Inter, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle">Model</text>
-  <text x="230" y="120" font-family="Inter, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Training</text>
+  <text x="230" y="105" font-family="Arial, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle" font-weight="bold">Model</text>
+  <text x="230" y="120" font-family="Arial, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Training</text>
 
-  <!-- Arrow 2 -->
   <line x1="285" y1="90" x2="315" y2="90" stroke="#F15BB5" stroke-width="1.5" opacity="0.6"/>
   <polygon points="315,85 325,90 315,95" fill="#F15BB5" opacity="0.6"/>
 
-  <!-- Step 3: Optimize -->
-  <rect x="330" y="30" width="100" height="120" rx="8" fill="url(#step3)" opacity="0.15"/>
-  <rect x="330" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#step3)" stroke-width="1.5"/>
+  <!-- Step 3 -->
+  <rect x="330" y="30" width="100" height="120" rx="8" fill="url(#s3)" opacity="0.15"/>
+  <rect x="330" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#s3)" stroke-width="1.5"/>
   <circle cx="380" cy="70" r="6" fill="#F46036"/>
-  <text x="380" y="105" font-family="Inter, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle">Optimize</text>
-  <text x="380" y="120" font-family="Inter, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Convert</text>
+  <text x="380" y="105" font-family="Arial, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle" font-weight="bold">Optimize</text>
+  <text x="380" y="120" font-family="Arial, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Convert</text>
 
-  <!-- Arrow 3 -->
   <line x1="435" y1="90" x2="465" y2="90" stroke="#F46036" stroke-width="1.5" opacity="0.6"/>
   <polygon points="465,85 475,90 465,95" fill="#F46036" opacity="0.6"/>
 
-  <!-- Step 4: API -->
-  <rect x="480" y="30" width="100" height="120" rx="8" fill="url(#step4)" opacity="0.15"/>
-  <rect x="480" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#step4)" stroke-width="1.5"/>
+  <!-- Step 4 -->
+  <rect x="480" y="30" width="100" height="120" rx="8" fill="url(#s4)" opacity="0.15"/>
+  <rect x="480" y="30" width="100" height="120" rx="8" fill="none" stroke="url(#s4)" stroke-width="1.5"/>
   <circle cx="530" cy="70" r="6" fill="#1B998B"/>
-  <text x="530" y="105" font-family="Inter, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle">Backend</text>
-  <text x="530" y="120" font-family="Inter, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">API</text>
+  <text x="530" y="105" font-family="Arial, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle" font-weight="bold">Backend</text>
+  <text x="530" y="120" font-family="Arial, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">API</text>
 
-  <!-- Arrow 4 -->
   <line x1="585" y1="90" x2="615" y2="90" stroke="#1B998B" stroke-width="1.5" opacity="0.6"/>
   <polygon points="615,85 625,90 615,95" fill="#1B998B" opacity="0.6"/>
 
-  <!-- Step 5: UI -->
-  <rect x="630" y="30" width="80" height="120" rx="8" fill="url(#step5)" opacity="0.15"/>
-  <rect x="630" y="30" width="80" height="120" rx="8" fill="none" stroke="url(#step5)" stroke-width="1.5"/>
+  <!-- Step 5 -->
+  <rect x="630" y="30" width="80" height="120" rx="8" fill="url(#s5)" opacity="0.15"/>
+  <rect x="630" y="30" width="80" height="120" rx="8" fill="none" stroke="url(#s5)" stroke-width="1.5"/>
   <circle cx="670" cy="70" r="6" fill="#2E294E"/>
-  <text x="670" y="105" font-family="Inter, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle">App</text>
-  <text x="670" y="120" font-family="Inter, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Integration</text>
+  <text x="670" y="105" font-family="Arial, sans-serif" font-size="10" fill="#C4B5D4" text-anchor="middle" font-weight="bold">App</text>
+  <text x="670" y="120" font-family="Arial, sans-serif" font-size="8" fill="#6B5B8A" text-anchor="middle">Integration</text>
 
-  <!-- Glowing Orb in Background -->
   <circle cx="400" cy="150" r="40" fill="#9B5DE5" opacity="0.1" filter="url(#glowFilter2)"/>
 </svg>
 
@@ -413,7 +395,6 @@ I am always open to collaborating on ML/AI projects or discussing new ideas.
 
 <div align="center">
 
-<!-- Custom SVG Footer with Glowing Orbs -->
 <svg width="100%" height="80" viewBox="0 0 800 80" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -421,38 +402,42 @@ I am always open to collaborating on ML/AI projects or discussing new ideas.
       <stop offset="100%" stop-color="#1A0B2E"/>
     </linearGradient>
     <linearGradient id="footerOrb1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#9B5DE5" stop-opacity="0.4"/>
+      <stop offset="0%" stop-color="#9B5DE5" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#F15BB5" stop-opacity="0.05"/>
     </linearGradient>
     <linearGradient id="footerOrb2" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#F15BB5" stop-opacity="0.3"/>
+      <stop offset="0%" stop-color="#F15BB5" stop-opacity="0.25"/>
       <stop offset="100%" stop-color="#9B5DE5" stop-opacity="0.05"/>
     </linearGradient>
     <filter id="footerBlur">
-      <feGaussianBlur stdDeviation="20"/>
+      <feGaussianBlur stdDeviation="18"/>
     </filter>
   </defs>
 
   <rect width="800" height="80" fill="url(#footerBg)" rx="8"/>
 
-  <circle cx="150" cy="40" r="50" fill="url(#footerOrb1)" filter="url(#footerBlur)"/>
-  <circle cx="650" cy="40" r="45" fill="url(#footerOrb2)" filter="url(#footerBlur)"/>
+  <circle cx="150" cy="40" r="45" fill="url(#footerOrb1)" filter="url(#footerBlur)"/>
+  <circle cx="650" cy="40" r="40" fill="url(#footerOrb2)" filter="url(#footerBlur)"/>
 
-  <text x="400" y="32" font-family="Inter, sans-serif" font-size="11" fill="#6B5B8A" text-anchor="middle" letter-spacing="2">
+  <!-- Footer Text with simpler styling -->
+  <rect x="290" y="24" width="220" height="16" rx="3" fill="#9B5DE5" opacity="0.12"/>
+  <text x="400" y="36" font-family="Arial, sans-serif" font-size="10" fill="#6B5B8A" text-anchor="middle" letter-spacing="3" font-weight="bold">
     BUILT WITH PYTHON & TENSORFLOW
   </text>
-  <text x="400" y="55" font-family="Inter, sans-serif" font-size="9" fill="#3D2D5C" text-anchor="middle" letter-spacing="1.5">
+
+  <rect x="285" y="48" width="230" height="14" rx="3" fill="#F15BB5" opacity="0.08"/>
+  <text x="400" y="58" font-family="Arial, sans-serif" font-size="9" fill="#4A3A6A" text-anchor="middle" letter-spacing="2">
     DEPLOYING INTELLIGENT SYSTEMS
   </text>
 
   <!-- Animated dots -->
-  <circle cx="370" cy="70" r="1.5" fill="#9B5DE5" opacity="0.5">
+  <circle cx="370" cy="72" r="1.5" fill="#9B5DE5" opacity="0.5">
     <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="400" cy="70" r="1.5" fill="#F15BB5" opacity="0.6">
+  <circle cx="400" cy="72" r="1.5" fill="#F15BB5" opacity="0.6">
     <animate attributeName="opacity" values="0.6;0;0.6" dur="3.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="430" cy="70" r="1.5" fill="#9B5DE5" opacity="0.5">
+  <circle cx="430" cy="72" r="1.5" fill="#9B5DE5" opacity="0.5">
     <animate attributeName="opacity" values="0.5;0;0.5" dur="2.8s" repeatCount="indefinite"/>
   </circle>
 </svg>
