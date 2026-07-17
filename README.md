@@ -210,8 +210,8 @@ class AlinaLiaquat:
 
 <div align="center">
 
-<a href="https://https://github.com/precious-05">
-  <img src="https://github-readme-stats.vercel.app/api?username=precious-05&show_icons=true&bg_color=0A0A1A&title_color=9B5DE5&text_color=C4B5D4&icon_color=F15BB5&border_color=1A0B2E&hide_border=true" alt="GitHub Stats" />
+<a href="https://github.com/precious-05">
+  <img src="https://github-stats-extended.vercel.app/api?username=precious-05&show_icons=true&bg_color=0A0A1A&title_color=9B5DE5&text_color=C4B5D4&icon_color=F15BB5&border_color=1A0B2E&hide_border=true" alt="GitHub Stats" />
 </a>
 <a href="https://github.com/precious-05">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=precious-05&background=0A0A1A&stroke=1A0B2E&ring=F15BB5&fire=F15BB5&currStreakNum=C4B5D4&sideNums=C4B5D4&currStreakLabel=9B5DE5&sideLabels=9B5DE5&dates=C4B5D4&hide_border=true" alt="GitHub Streak" />
@@ -221,7 +221,7 @@ class AlinaLiaquat:
 <br />
 
 <a href="https://github.com/precious-05">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=precious-05&layout=compact&bg_color=0A0A1A&title_color=9B5DE5&text_color=C4B5D4&icon_color=F15BB5&border_color=1A0B2E&hide_border=true" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=precious-05&layout=compact&bg_color=0A0A1A&title_color=9B5DE5&text_color=C4B5D4&icon_color=F15BB5&border_color=1A0B2E&hide_border=true" alt="Top Languages" />
 </a>
 
 </div>
