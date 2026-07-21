@@ -4,7 +4,7 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=3500&pause=300&color=9B5DE5&center=true&vCenter=true&width=700&lines=Alina+Liaquat;AI+%26+Machine+Learning+Engineer;Building+Intelligent+Systems" alt="Typing SVG" /></a>
 
-<img src="./assets/Banner3.jpg" width="100%" alt="Banner" />
+<img src="./assets/precious-05-profile-banner.svg" width="100%" alt="Profile Banner" />
 
 <a href="https://www.linkedin.com/in/alina-liaquat-779347325/">
   <img src="https://img.shields.io/badge/LinkedIn-Alina%20Liaquat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
