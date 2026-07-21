@@ -18,8 +18,6 @@
 <br />
 <br />
 
-<img src="./assets/girl.gif" width="150" height="170" alt="Alina" />
-
 </div>
 
 ---
