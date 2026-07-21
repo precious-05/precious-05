@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=3500&pause=300&color=9B5DE5&center=true&vCenter=true&width=700&lines=Alina+Liaquat;AI+%26+Machine+Learning+Engineer;Building+Intelligent+Systems" alt="Typing SVG" /></a>
+
 
 <img src="./assets/precious-05-profile-banner.svg" width="100%" alt="Profile Banner" />
 
