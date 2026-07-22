@@ -51,14 +51,6 @@
 
 ---
 
-## AI & Machine Learning Pipeline
-
-<div align="center">
-  <img src="./assets/pipeline.svg" width="100%" alt="ML Pipeline" />
-</div>
-
----
-
 ## Featured Projects
 
 ### Bazgar AI | Smart Farming Assistant
