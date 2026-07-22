@@ -1,22 +1,26 @@
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=3500&pause=300&color=9B5DE5&center=true&vCenter=true&width=700&lines=Alina+Liaquat;AI+%26+Machine+Learning+Engineer;Building+Intelligent+Systems" alt="Typing SVG" /></a>
-
-<img src="./assets/precious-05-profile-banner.svg" width="100%" alt="Profile Banner" />
+<img src="./assets/precious-05-profile-banner.svg" width="100%" alt="Alina Liaquat — AI & ML Engineer" />
 
 <br />
 
-<a href="https://www.linkedin.com/in/alina-liaquat-779347325/">
-  <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn" height="30" />
-</a>
-&nbsp;
-<a href="https://github.com/precious-05">
-  <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" height="30" />
-</a>
-
-<br />
-<br />
-
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/alina-liaquat-779347325/">
+        <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn" height="32" /><br/>
+        <sub><b>LinkedIn</b></sub>
+      </a>
+    </td>
+    <td align="center" width="20">&nbsp;</td>
+    <td align="center">
+      <a href="https://github.com/precious-05">
+        <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" height="32" /><br/>
+        <sub><b>GitHub</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -25,9 +29,9 @@
 ## Summary
 
 - **Focus:** Final-year Computer Science student specializing in Custom Machine Learning Models and AI Applications
-- **Approach:** Passionate about building practical, data-driven systems to solve real-world problems
-- **Expertise:** Full lifecycle ML development—from data exploration and training to API backend deployment
-- **Domains:** Disease diagnostics, risk analysis, clinical safety, Agriculure, and data-driven dashboards
+- **Approach:** Building practical, data-driven systems that solve real-world problems — from raw data to production deployment
+- **Expertise:** Full lifecycle ML development — data exploration, model training, API backend, and deployment
+- **Domains:** Disease diagnostics, environmental risk analysis, clinical safety, agriculture, and exploratory data analysis
 
 ---
 
@@ -35,17 +39,7 @@
 
 <div align="center">
 
-### Languages
-<img src="https://skillicons.dev/icons?i=python,java,cpp,c,js&theme=dark" alt="Languages" />
-
-### AI & Data Science
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" alt="AI & Data" />
-
-### Backend & Databases
-<img src="https://skillicons.dev/icons?i=fastapi,postgres,mongodb,mysql,sqlite&theme=dark" alt="Backend & DB" />
-
-### Tools & Deployment
-<img src="https://skillicons.dev/icons?i=git,androidstudio,vercel,netlify,linux&theme=dark" alt="Tools" />
+<img src="./assets/tech-stack.svg" width="100%" alt="Animated Tech Stack" />
 
 </div>
 
@@ -54,43 +48,49 @@
 ## Featured Projects
 
 ### Bazgar AI | Smart Farming Assistant
-*Full-stack, culturally-tailored web app for real-time apple leaf disease diagnosis and crop suggestions.*
-- **Impact:** Built a custom TensorFlow Lite classification model paired with a UCB1 reinforcement learning algorithm for adaptive treatments.
-- **Tech:** <img src="https://skillicons.dev/icons?i=python,fastapi,tensorflow,js&theme=dark" height="24" align="center" />
+*Full-stack web application for real-time apple leaf disease diagnosis and adaptive crop treatment suggestions, built for Balochi farmers.*
+- Built a custom **TensorFlow Lite** classification model for on-device leaf disease detection
+- Implemented **UCB1 reinforcement learning** for context-aware, localized crop recommendations
+- **Tech:** <img src="https://skillicons.dev/icons?i=python,fastapi,tensorflow,js&theme=dark" height="22" align="center" />
 
 ### EcoSafe AI | Forest Fire Risk Analysis
-*Offline-first Android app for binary fire classification using TensorFlow Lite and dynamic Google Maps mapping.*
-- **Impact:** Enabled offline local SQLite incident tracking integrated with real-time risk visualization.
-- **Tech:** <img src="https://skillicons.dev/icons?i=python,fastapi,tensorflow,androidstudio&theme=dark" height="24" align="center" />
+*Offline-first Android application for binary fire classification using satellite sensor data.*
+- Trained a **TensorFlow Lite** binary classification model for real-time fire risk assessment
+- Integrated **dynamic Google Maps** risk mapping with local **SQLite** incident tracking
+- **Tech:** <img src="https://skillicons.dev/icons?i=python,fastapi,tensorflow,androidstudio&theme=dark" height="22" align="center" />
 
 ### ThyroAssess AI | Thyroid Cancer Risk Assessment
-*Clinical diagnostic web app utilizing Logistic Regression on 200K+ patient records.*
-- **Impact:** Achieved **83% accuracy** in diagnosis. Fully deployed with a FastAPI backend and Vercel interface.
-- **Tech:** <img src="https://skillicons.dev/icons?i=python,fastapi,mongodb&theme=dark" height="24" align="center" />
+*Clinical diagnostic web application for thyroid cancer risk prediction.*
+- Developed **Logistic Regression** model on 200K+ patient records achieving **83% accuracy**
+- Full deployment: **FastAPI** backend · **MongoDB** database · **Vercel**-hosted frontend
+- **Tech:** <img src="https://skillicons.dev/icons?i=python,fastapi,mongodb,vercel&theme=dark" height="22" align="center" />
 
 ### MediNomix | Medication Error Prevention System
-*Database application preventing Look-Alike/Sound-Alike (LASA) medication errors via phonetic similarity matching.*
-- **Impact:** Developed an ETL pipeline leveraging the OpenFDA API with a streamlined frontend.
-- **Tech:** <img src="https://skillicons.dev/icons?i=python,postgres&theme=dark" height="24" align="center" />
+*Database system to prevent Look-Alike/Sound-Alike (LASA) medication dispensing errors.*
+- Implemented **phonetic similarity matching** algorithms for drug name disambiguation
+- Built a full **ETL pipeline** using the **OpenFDA API** and **PostgreSQL (Neon)** database
+- **Tech:** <img src="https://skillicons.dev/icons?i=python,postgres&theme=dark" height="22" align="center" />
 
 ### Prosperous Farmer | Agriculture Data Dashboard
-*Interactive bilingual (Urdu-English) data dashboard for Pakistani farmers with CRUD entry and automated CSV exports.*
-- **Impact:** Built dynamic crop yield visualizations.
-- **Tech:** <img src="https://skillicons.dev/icons?i=python,postgres&theme=dark" height="24" align="center" />
+*Interactive bilingual (Urdu-English) data dashboard for Pakistani farmers.*
+- Built dynamic **crop yield visualizations** using Pandas and Plotly
+- Implemented CRUD entry with **automated CSV exports**
+- **Tech:** <img src="https://skillicons.dev/icons?i=python,postgres&theme=dark" height="22" align="center" />
 
 ### US Natural Resources EDA
-*In-depth data cleaning, transformation, and exploratory analysis on US monthly natural resources revenue datasets.*
-- **Impact:** Designed insightful data visualizations tracking revenue trends over time.
-- **Tech:** <img src="https://skillicons.dev/icons?i=python&theme=dark" height="24" align="center" />
+*In-depth exploratory analysis on US monthly natural resources revenue datasets.*
+- Performed data cleaning, transformation, and trend analysis with **Pandas** and **NumPy**
+- Designed multi-dimensional dashboards with **Seaborn** and **Matplotlib**
+- **Tech:** <img src="https://skillicons.dev/icons?i=python&theme=dark" height="22" align="center" />
 
 ---
 
 ## More Builds
 
-- **Dakati Game:** Cross-platform dacoit-themed social deduction game built with Kivy and packaged with Buildozer.  
-  <img src="https://skillicons.dev/icons?i=python&theme=dark" height="24" align="center" />
-- **Arduino Voice Robot Car:** Hardware project programmed in C for real-time voice and Bluetooth robot control.  
-  <img src="https://skillicons.dev/icons?i=c,arduino&theme=dark" height="24" align="center" />
+- **Dakati Game:** Cross-platform dacoit-themed social deduction game built with Python and Kivy, packaged for Android via Buildozer.
+  <img src="https://skillicons.dev/icons?i=python&theme=dark" height="20" align="center" />
+- **Arduino Voice Robot Car:** Hardware project programmed in C for real-time voice and Bluetooth robot control.
+  <img src="https://skillicons.dev/icons?i=c,arduino&theme=dark" height="20" align="center" />
 
 ---
 
@@ -101,19 +101,19 @@
     <tr>
       <td align="center">
         <a href="https://github.com/precious-05">
-          <img src="https://github-stats-extended.vercel.app/api?username=precious-05&show_icons=true&bg_color=0A0A1A&title_color=9B5DE5&text_color=C4B5D4&icon_color=F15BB5&border_color=1A0B2E&hide_border=true" alt="GitHub Stats" width="100%" />
+          <img src="https://github-stats-extended.vercel.app/api?username=precious-05&show_icons=true&bg_color=050510&title_color=9B5DE5&text_color=C4B5D4&icon_color=F15BB5&border_color=1A0B2E&hide_border=true" alt="GitHub Stats" />
         </a>
       </td>
       <td align="center">
         <a href="https://github.com/precious-05">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=precious-05&background=0A0A1A&stroke=1A0B2E&ring=F15BB5&fire=F15BB5&currStreakNum=C4B5D4&sideNums=C4B5D4&currStreakLabel=9B5DE5&sideLabels=9B5DE5&dates=C4B5D4&hide_border=true" alt="GitHub Streak" width="100%" />
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=precious-05&background=050510&stroke=1A0B2E&ring=F15BB5&fire=F15BB5&currStreakNum=C4B5D4&sideNums=C4B5D4&currStreakLabel=9B5DE5&sideLabels=9B5DE5&dates=C4B5D4&hide_border=true" alt="GitHub Streak" />
         </a>
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
         <a href="https://github.com/precious-05">
-          <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=precious-05&layout=compact&bg_color=0A0A1A&title_color=9B5DE5&text_color=C4B5D4&icon_color=F15BB5&border_color=1A0B2E&hide_border=true" alt="Top Languages" />
+          <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=precious-05&layout=compact&bg_color=050510&title_color=9B5DE5&text_color=C4B5D4&border_color=1A0B2E&hide_border=true" alt="Top Languages" />
         </a>
       </td>
     </tr>
@@ -122,4 +122,6 @@
 
 ---
 
-
+<div align="center">
+  <sub>Open to collaborating on ML/AI projects &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/alina-liaquat-779347325/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/precious-05">GitHub</a></sub>
+</div>
