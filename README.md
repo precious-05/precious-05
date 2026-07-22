@@ -7,17 +7,16 @@
 <br />
 
 <a href="https://www.linkedin.com/in/alina-liaquat-779347325/">
-  <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn" height="40" />
+  <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn" height="30" />
 </a>
 &nbsp;
 <a href="https://github.com/precious-05">
-  <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" height="40" />
+  <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" height="30" />
 </a>
 
 <br />
 <br />
 
-<img src="./assets/girl.gif" width="150" height="170" alt="Alina" />
 
 </div>
 
@@ -25,10 +24,10 @@
 
 ## Summary
 
-- **Focus:** Final-year Computer Science student specializing in Custom Machine Learning Models and AI Applications.
-- **Approach:** Passionate about building practical, data-driven systems to solve real-world problems.
-- **Expertise:** Full lifecycle ML development—from data exploration and training to API backend deployment.
-- **Domains:** Disease diagnostics, risk analysis, clinical safety, and data-driven dashboards.
+- **Focus:** Final-year Computer Science student specializing in Custom Machine Learning Models and AI Applications
+- **Approach:** Passionate about building practical, data-driven systems to solve real-world problems
+- **Expertise:** Full lifecycle ML development—from data exploration and training to API backend deployment
+- **Domains:** Disease diagnostics, risk analysis, clinical safety, Agriculure, and data-driven dashboards
 
 ---
 
